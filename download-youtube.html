@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta content="text/html;charset=UTF-8" http-equiv="content-type" />
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Download YouTube video - revanced.net</title>
+
+    
+    <meta name="description"
+        content="Download YouTube Vanced, TikTok Vanced, and Vanced Manager APKs for an ad-free, enhanced streaming experience. Get the latest versions now!">
+    
+
+    <meta name="keywords"
+        content="YouTube Vanced, TikTok Vanced, Vanced Manager APK, ad-free streaming, background playback, modified YouTube, ad-blocking, enhanced video experience, APK download, uninterrupted entertainment, Vanced app updates, latest versions, video streaming enhancements, seamless viewing, video platform modifications">
+
+    <meta name="author" content="ReVanced Apps">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/site.webmanifest">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <script  src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/bootstrap@4,npm/jquery.easing@1"></script>
+    <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.132/dist/typed.umd.min.js"></script>
+
+
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-R26RY4G8B3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-R26RY4G8B3');
+    </script>
+
+    <script async crossorigin="anonymous"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6322777268798897"></script>
+
+
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="/"><img alt="Open" height="48" src="assets/img/logo.svg"
+                    width="48"></a>
+            <button aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler collapsed" data-target="#navbarDefault" data-toggle="collapse" type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/youtube-revanced">YouTube ReVanced</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/microg">MicroG</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/help#build-apk">Build your own APK</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="revanced-for-ios">ReVanced for iOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/help">Help</a>
+                    </li>
+
+                    
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/#download">Download</a>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="intro intro-single">
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h1 class="intro-title mb-4">
+                        <span class="revanced--gradient">Video Downloader</span>
+                    </h1>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <main id="main">
+
+        <style>
+    .thumbnail {
+        margin: 0 auto;
+        vertical-align: middle;
+        border: 0;
+    }
+
+    .thumbnail img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+                <form action="/download-youtube">
+                    <p>Please enter the YouTube link you want to download:</p>
+                    <div class="input-group rounded input-group-lg">
+                        <input aria-describedby="basic-addon1" aria-label="Input group example" class="form-control"
+                            name="url" id="url" placeholder="Enter YouTube video URL here" type="text" value="">
+                        <button class="input-group-text" id="basic-addon1" type="submit" onclick="return submitForm();">
+                            <img src="assets/img/arrow-down-square.svg" width="24">
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="row d-none" id="loading-bar">
+            <div class="col align-items-center">
+                <img src="assets/img/spinner-1s-500px.svg" style="width: 100%">
+            </div>
+
+        </div>
+        <div class="row d-none" id="video-detail">
+            <div class="col-xs-12 col-sm-5 col-md-5">
+                <div class="thumbnail cover">
+                    <img id="video-thumb" src="">
+
+                    <div class="caption text-left"><b id="video-title"></b></div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-7 col-md-7">
+                <ul class="nav nav-tabs justify-content-start" id="selectTab" role="tablist">
+                    <li class="nav-item p-0 active" role="presentation"><a aria-expanded="true" class="nav-link"
+                            data-toggle="tab" href="#video-list">
+                            <svg style="width: 16px;height: auto;margin: -5px 5px 0 0;" viewBox="0 0 576 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            Video</a></li>
+                    <!--
+                            <li class="nav-item p-0" role="presentation"><a aria-expanded="false" class="nav-link"
+                            data-toggle="tab" href="#audio-list">
+                            <svg style="width: 16px;height: auto;margin: -5px 5px 0 0;" viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            Audio</a></li>  -->
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active in" id="video-list">
+                        <table class="table table-hover table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quality</th>
+                                    <th>Size</th>
+                                    <th>Extension</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> MP4 auto quality</td>
+                                    <td>MB</td>
+                                    <td class="txt-center">
+                                        <button class="btn btn-success btn-sm" onclick="" type="button">Download
+                                        </button>
+                                    </td>
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <!--
+                    <div class="tab-pane fade" id="audio-list">
+                        <table class="table table-hover table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Quality</th>
+                                    <th>Size</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> MP4 auto quality</td>
+                                    <td>MB</td>
+                                    <td class="txt-center">
+                                        <button class="btn btn-success btn-sm" onclick="" type="button">Download
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                    -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h2 class="title-a">
+                        How to download videos from YouTube
+                    </h2>
+                    <div class="line-mf"></div>
+                </div>
+                <div class="box-shadow-full">
+                    <h4>Introduction</h4>
+                    <p>Downloading YouTube videos by URL allows you to save videos directly to your device for offline
+                        viewing or other purposes. In this guide, we will walk you through the process of downloading
+                        YouTube videos using a reliable online tool.</p>
+
+                    <p>Note: Downloading copyrighted content without permission is against YouTube's terms of service
+                        and may infringe upon copyright laws. Ensure that you have the necessary rights or permissions
+                        to download the video before proceeding.</p>
+
+                    <h4>Step 1: Find the YouTube video you want to download</h4>
+                    <ul>
+                        <li>Open your web browser and go to www.youtube.com.</li>
+                        <li>Use the search bar to find the video you want to download.</li>
+                        <li>Click on the video to open it.</li>
+                    </ul>
+
+                    <h4>Step 2: Copy the video URL</h4>
+                    <ul>
+                        <li>Once the video is open, locate the address bar at the top of your web browser.</li>
+                        <li>Click inside the address bar to select the entire URL.</li>
+                        <li>Right-click on the selected URL and choose "Copy" from the context menu.</li>
+                        <li>Alternatively, you can use the keyboard shortcut Ctrl+C (Windows) or Command+C (Mac) to copy
+                            the URL.</li>
+                    </ul>
+
+
+                    <h4>Step 3: Go to revanced.net</h4>
+                    <ul>
+                        <li>Open a new tab in your web browser.</li>
+                        <li>Enter URL <a href="revanced.net/download-youtube">revanced.net</a> into the address bar.
+                        </li>
+                        <li>Press Enter to navigate to the website.</li>
+                    </ul>
+
+                    <h4>Step 4: Paste the YouTube video URL</h4>
+                    <ul>
+                        <li>Once you're on the video downloader website, you should see a text box where you can enter
+                            the YouTube video URL.</li>
+                        <li>Right-click inside the text box and choose "Paste" from the context menu.</li>
+                        <li>Alternatively, you can use the keyboard shortcut Ctrl+V (Windows) or Command+V (Mac) to
+                            paste the URL.</li>
+                    </ul>
+
+                    <h4>Step 5: Initiate the download</h4>
+                    <ul>
+                        <li>After pasting the YouTube video URL, locate the download button or option on the video
+                            downloader website.</li>
+                        <li>Click on the download button to initiate the downloading process.</li>
+                        <li>Some video downloaders may offer options to choose the video quality or format. Select your
+                            preferred options if available.</li>
+                    </ul>
+
+                    <h4>Step 6: Download the video</h4>
+                    <ul>
+                        <li>Once you click the download button, the video downloader will analyze the YouTube video URL
+                            and generate the download link.</li>
+                        <li>Wait for the video downloader to process the video.</li>
+                        <li>Once the download link is ready, you will be presented with a download button or link.</li>
+                        <li>Click on the download button or link to start the video download.</li>
+                    </ul>
+
+                    <h4>Step 7: Save the video</h4>
+                    <ul>
+                        <li>After clicking the download button, a dialog box will appear asking you to choose the
+                            location on your device where you want to save the video.</li>
+                        <li>Select the desired destination folder or location and click "Save" to save the video.</li>
+                    </ul>
+
+                    <h4>Step 8: Verify the downloaded video</h4>
+                    <ul>
+                        <li>Once the video is downloaded, navigate to the folder or location where you saved it.</li>
+                        <li>Double-click on the video file to open and verify that it plays correctly.</li>
+                    </ul>
+
+                    <h4>Conclusion:</h4>
+                    <p>By following the steps outlined in this guide, you can easily download YouTube videos by URL
+                        using a reliable online video downloader. Remember to respect copyright laws and ensure that you
+                        have the necessary rights or permissions before downloading and using videos from YouTube or any
+                        other platform.</p>
+                    <hr>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h2 class="title-a">
+                        ReVanced.net - Best YouTube Video Downloader
+                    </h2>
+                    <div class="line-mf"></div>
+                </div>
+                <div class="box-shadow-full">
+                    <p>
+                        ReVanced.net is an online platform that allows users to download videos and audio from various
+                        websites, including YouTube. It provides a service for converting YouTube videos into
+                        downloadable formats, such as MP4 or MP3. Users can simply paste the YouTube video link into
+                        revanced.net and choose the desired format and quality for the download. revanced.net is popular
+                        among those who want to save YouTube videos for offline viewing or to extract audio from videos.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+<script src="assets/js/download.js?v=1.1"></script>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">2018-2023 Copyright &copy; <a href="/"><strong>YouTube
+                                    ReVanced</strong></a></p>
+                        <div class="credits">
+                            All Rights Reserved. | <a href="sitemap.xml">Sitemap</a> | <a href="/tos">ToS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a class="back-to-top" href="#"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <script  src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script  src="assets/js/main.js"></script>
+    <script defer data-domain="revanced.net"file-types="apk" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+
+
+
+</body>
+
+
+</html>
