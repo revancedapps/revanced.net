@@ -21,8 +21,8 @@
     {
       "packageTitle": "revanced_manager",
       "packageName": "com.revanced.net.revancedmanager",
-      "version": "1.8.13",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-34/revanced.net_revanced_manager_v1.8.13.apk"
+      "version": "1.8.15",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-37/revanced.net_revanced_manager_v1.8.15.apk"
     },
     {
       "packageTitle": "revanced_messenger",
@@ -39,8 +39,8 @@
     {
       "packageTitle": "revanced_reddit",
       "packageName": "com.reddit.frontpage",
-      "version": "2023.34.0",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-36/revanced.net_revanced_reddit_v2023.34.0.apk"
+      "version": "2023.35.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-37/revanced.net_revanced_reddit_v2023.35.0.apk"
     },
     {
       "packageTitle": "revanced_strava",
@@ -75,8 +75,8 @@
     {
       "packageTitle": "revanced_youtube_ext",
       "packageName": "app.rvx.android.youtube",
-      "version": "18.30.37",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-34/revanced.net_revanced_youtube_ext_v18.30.37.apk"
+      "version": "18.31.40",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-37/revanced.net_revanced_youtube_ext_v18.31.40.apk"
     },
     {
       "packageTitle": "revanced_youtube_magisk",
@@ -93,8 +93,8 @@
     {
       "packageTitle": "revanced_youtube_music_ext",
       "packageName": "app.rvx.android.apps.youtube.music",
-      "version": "6.14.50",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-34/revanced.net_revanced_youtube_music_ext_v6.14.50.apk"
+      "version": "6.17.52",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-37/revanced.net_revanced_youtube_music_ext_v6.17.52.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_magisk",
