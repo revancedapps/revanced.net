@@ -4,7 +4,7 @@
       "packageTitle": "revanced_duolingo",
       "packageName": "com.duolingo",
       "version": "5.121.4",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-39/revanced.net_revanced_duolingo_v5.121.4.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-40/revanced.net_revanced_duolingo_v5.121.4.apk"
     },
     {
       "packageTitle": "revanced_instagram",
@@ -82,7 +82,7 @@
       "packageTitle": "revanced_youtube_ext",
       "packageName": "app.rvx.android.youtube",
       "version": "18.31.40",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-39/revanced.net_revanced_youtube_ext_v18.31.40.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-40/revanced.net_revanced_youtube_ext_v18.31.40.apk"
     },
     {
       "packageTitle": "revanced_youtube_magisk",
@@ -99,8 +99,8 @@
     {
       "packageTitle": "revanced_youtube_music_ext",
       "packageName": "app.rvx.android.apps.youtube.music",
-      "version": "6.19.51",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-39/revanced.net_revanced_youtube_music_ext_v6.19.51.apk"
+      "version": "6.20.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-40/revanced.net_revanced_youtube_music_ext_v6.20.51.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_magisk",
