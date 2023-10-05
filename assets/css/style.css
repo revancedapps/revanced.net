@@ -1039,3 +1039,34 @@ footer .credits a {
 .old-version-table tr:hover {
     color: white !important;
 }
+
+.apk-list-box {
+    background-color: #161616;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.apk-list-box img {
+    width: 40%;
+    opacity: 0.9;
+}
+
+.apk-list-box .apk-title {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.apk-list-box .apk-update {
+    font-size: small;
+    padding: 0rem;   
+    margin: 0rem;
+}
+
+.apk-list-box .apk-version {
+    font-size: small;
+    padding: 0rem;
+    margin: 0rem;
+}
