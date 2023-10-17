@@ -3,8 +3,8 @@
     {
       "packageTitle": "revanced_duolingo",
       "packageName": "com.duolingo",
-      "version": "5.123.3",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_duolingo_v5.123.3.apk"
+      "version": "5.124.5",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_duolingo_v5.124.5.apk"
     },
     {
       "packageTitle": "revanced_instagram",
@@ -15,8 +15,8 @@
     {
       "packageTitle": "revanced_lightroom",
       "packageName": "com.adobe.lrmobile",
-      "version": "8.5.2",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-38/revanced.net_revanced_lightroom_v8.5.2.apk"
+      "version": "9.0.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_lightroom_v9.0.0.apk"
     },
     {
       "packageTitle": "revanced_manager",
@@ -27,8 +27,8 @@
     {
       "packageTitle": "revanced_messenger",
       "packageName": "com.facebook.orca",
-      "version": "429.0.0.37.111",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_messenger_v429.0.0.37.111.apk"
+      "version": "430.1.0.46.101",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-43/revanced.net_revanced_messenger_v430.1.0.46.101.apk"
     },
     {
       "packageTitle": "revanced_microg",
@@ -39,14 +39,14 @@
     {
       "packageTitle": "revanced_reddit",
       "packageName": "com.reddit.frontpage",
-      "version": "2023.39.0",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_reddit_v2023.39.0.apk"
+      "version": "2023.40.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_reddit_v2023.40.0.apk"
     },
     {
       "packageTitle": "revanced_reddit_ext",
       "packageName": "com.reddit.frontpage",
-      "version": "2023.39.0",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_reddit_ext_v2023.39.0.apk"
+      "version": "2023.40.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_reddit_ext_v2023.40.0.apk"
     },
     {
       "packageTitle": "revanced_strava",
@@ -63,8 +63,8 @@
     {
       "packageTitle": "revanced_tumblr",
       "packageName": "com.tumblr",
-      "version": "31.5.0.110",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_tumblr_v31.5.0.110.apk"
+      "version": "31.6.0.110",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_tumblr_v31.6.0.110.apk"
     },
     {
       "packageTitle": "revanced_twitch",
@@ -75,50 +75,50 @@
     {
       "packageTitle": "revanced_twitter",
       "packageName": "com.twitter.android",
-      "version": "10.10.0-release.0",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_twitter_v10.10.0-release.0.apk"
+      "version": "10.11.0-release.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_twitter_v10.11.0-release.0.apk"
     },
     {
       "packageTitle": "revanced_youtube",
       "packageName": "app.revanced.android.youtube",
-      "version": "18.37.36",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_youtube_v18.37.36.apk"
+      "version": "18.38.44",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-43/revanced.net_revanced_youtube_v18.38.44.apk"
     },
     {
       "packageTitle": "revanced_youtube_ext",
       "packageName": "app.rvx.android.youtube",
-      "version": "18.33.40",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_youtube_ext_v18.33.40.apk"
+      "version": "18.36.39",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_youtube_ext_v18.36.39.apk"
     },
     {
       "packageTitle": "revanced_youtube_magisk",
       "packageName": "com.",
-      "version": "18.32.39",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-37/revanced.net_revanced_youtube_magisk_v18.32.39.zip"
+      "version": "18.38.44",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_youtube_magisk_v18.38.44.zip"
     },
     {
       "packageTitle": "revanced_youtube_music",
       "packageName": "app.revanced.android.apps.youtube.music",
-      "version": "6.21.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_youtube_music_v6.21.52.apk"
+      "version": "6.22.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_youtube_music_v6.22.51.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_ext",
       "packageName": "app.rvx.android.apps.youtube.music",
-      "version": "6.21.51",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-40/revanced.net_revanced_youtube_music_ext_v6.21.51.apk"
+      "version": "6.22.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_youtube_music_ext_v6.22.51.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_magisk",
       "packageName": "com.",
-      "version": "6.21.51",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-41/revanced.net_revanced_youtube_music_magisk_v6.21.51.zip"
+      "version": "6.22.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-42/revanced.net_revanced_youtube_music_magisk_v6.22.51.zip"
     },
     {
       "packageTitle": "smarttube",
       "packageName": "com.liskovsoft.smartyoutubetv2.tv",
-      "version": "19.17",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-40/revanced.net_smarttube_v19.17.apk"
+      "version": "19.54",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-43/revanced.net_smarttube_v19.54.apk"
     }
   ]
 }
