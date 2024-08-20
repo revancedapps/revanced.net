@@ -27,13 +27,13 @@
     <link rel="manifest" href="/assets/img/site.webmanifest">
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
 
-    <link href="assets/css/style.css?v=0926" rel="stylesheet">
+    <link href="/assets/css/style.css?v=0926" rel="stylesheet">
 
-    <script  src="https://cdn.jsdelivr.net/combine/npm/jquery@3,npm/bootstrap@4,npm/jquery.easing@1"></script>
-    <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.132/dist/typed.umd.min.js"></script>
+    <script  src="https://gcore.jsdelivr.net/combine/npm/jquery@3,npm/bootstrap@4,npm/jquery.easing@1"></script>
+    <script  src="https://gcore.jsdelivr.net/npm/typed.js@2.0.132/dist/typed.umd.min.js"></script>
 
 
     <!-- gtag  -->
@@ -59,9 +59,10 @@
         })(window, document, "clarity", "script", "jxz59l4nx6");
     </script>
 
+    
     <!-- ADS  -->
-    <script async crossorigin="anonymous"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6322777268798897"></script>
+    <script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6322777268798897"></script>
+    
 
 
 </head>
@@ -70,7 +71,7 @@
 
     <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll" href="/"><img alt="Open" height="48" src="assets/img/logo.svg"
+            <a class="navbar-brand js-scroll" href="/"><img alt="Open" height="48" src="/assets/img/logo.svg"
                     width="48"></a>
             <button aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler collapsed" data-target="#navbarDefault" data-toggle="collapse" type="button">
@@ -86,7 +87,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link js-scroll" href="/microg">MicroG</a>
+                        <a class="nav-link js-scroll" href="/gmscore-microg">MicroG</a>
                     </li>
 
                     <li class="nav-item">
@@ -94,7 +95,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link js-scroll" href="revanced-for-ios">ReVanced for iOS</a>
+                        <a class="nav-link js-scroll" href="/revanced-for-ios">ReVanced for iOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll" href="/faq">FAQ</a>
@@ -121,7 +122,7 @@
             <div class="table-cell">
                 <div class="container">
                     <h1 class="intro-title mb-4">
-                        <span class="revanced--gradient">Video Downloader</span>
+                        <span class="revanced--gradient">Youtube Video Downloader</span>
                     </h1>
 
                     
@@ -159,7 +160,7 @@
                         <input aria-describedby="basic-addon1" aria-label="Input group example" class="form-control"
                             name="url" id="url" placeholder="Enter YouTube video URL here" type="text" value="">
                         <button class="input-group-text" id="basic-addon1" type="submit" onclick="return submitForm();">
-                            <img src="assets/img/arrow-down-square.svg" width="24">
+                            <img src="/assets/img/arrow-down-square.svg" width="24">
                         </button>
                     </div>
                 </form>
@@ -168,10 +169,16 @@
         </div>
         <div class="row d-none" id="loading-bar">
             <div class="col align-items-center">
-                <img src="assets/img/spinner-1s-500px.svg" style="width: 100%">
+                <img src="/assets/img/spinner-1s-500px.svg" style="width: 100%">
             </div>
-
         </div>
+
+        <div class="row d-none mt-3" id="err-msg">
+            <div class="col align-items-center text-center">
+                <p id="err-msg-text" class="text-danger"></p>
+            </div>
+        </div>
+
         <div class="row d-none" id="video-detail">
             <div class="col-xs-12 col-sm-5 col-md-5">
                 <div class="thumbnail cover">
@@ -181,8 +188,13 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-7 col-md-7">
-                <ul class="nav nav-tabs justify-content-start" id="selectTab" role="tablist">
+            <div class="col-xs-12 col-sm-7 col-md-7 ">
+                <div class="mt-5 mx-3" id="download-formats">
+                
+                </div>
+
+                <!--<
+                    <ul class="nav nav-tabs justify-content-start" id="selectTab" role="tablist">
                     <li class="nav-item p-0 active" role="presentation"><a aria-expanded="true" class="nav-link"
                             data-toggle="tab" href="#video-list">
                             <svg style="width: 16px;height: auto;margin: -5px 5px 0 0;" viewBox="0 0 576 512"
@@ -192,18 +204,9 @@
                                     fill="currentColor"></path>
                             </svg>
                             Video</a></li>
-                    <!--
-                            <li class="nav-item p-0" role="presentation"><a aria-expanded="false" class="nav-link"
-                            data-toggle="tab" href="#audio-list">
-                            <svg style="width: 16px;height: auto;margin: -5px 5px 0 0;" viewBox="0 0 512 512"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"
-                                    fill="currentColor"></path>
-                            </svg>
-                            Audio</a></li>  -->
+
                 </ul>
-                <div class="tab-content">
+                div class="tab-content">
                     <div class="tab-pane active in" id="video-list">
                         <table class="table table-hover table-bordered table-striped  old-version-table">
                             <thead>
@@ -229,30 +232,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <!--
-                    <div class="tab-pane fade" id="audio-list">
-                        <table class="table table-hover table-bordered table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Quality</th>
-                                    <th>Size</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td> MP4 auto quality</td>
-                                    <td>MB</td>
-                                    <td class="txt-center">
-                                        <button class="btn btn-success btn-sm" onclick="" type="button">Download
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> 
-                    -->
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -390,10 +370,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v1.9.11</p>
+                              <p class="apk-version">v1.9.25</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">17 Nov</p>
+                              <p class="apk-update">01 May</p>
                          </div>
                     </div>
                </div>
@@ -415,10 +395,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v19.04.37</p>
+                              <p class="apk-version">v19.16.39</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">04 Mar</p>
+                              <p class="apk-update">06 Aug</p>
                          </div>
                     </div>
                </div>
@@ -429,19 +409,19 @@
      <div class="col-lg-3 col-md-4 col-sm-6  col-6">
           <div class="apk-list-box">
                <div class="apk-ico">
-                    <a href="/microg">
+                    <a href="/gmscore-microg">
                          <img src="/assets/img/microg.png"> </a>
                </div>
                <div class="apk-content">
-                    <a href="/microg">
+                    <a href="/gmscore-microg">
                          <p class="apk-title">ReVanced MicroG</p>
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v0.3.0.234415</p>
+                              <p class="apk-version">v0.3.1.4.240913</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">29 Nov</p>
+                              <p class="apk-update">05 Apr</p>
                          </div>
                     </div>
                </div>
@@ -463,10 +443,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v6.41.58</p>
+                              <p class="apk-version">v7.03.52</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">04 Mar</p>
+                              <p class="apk-update">06 Aug</p>
                          </div>
                     </div>
                </div>
@@ -488,10 +468,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v19.02.39</p>
+                              <p class="apk-version">v19.25.39</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">26 Jan</p>
+                              <p class="apk-update">05 Jul</p>
                          </div>
                     </div>
                </div>
@@ -512,10 +492,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v6.33.52</p>
+                              <p class="apk-version">v7.13.52</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">26 Jan
+                              <p class="apk-update">12 Aug
                               </p>
                          </div>
                     </div>
@@ -561,10 +541,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v9.1.1</p>
+                              <p class="apk-version">v9.4.3</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">05 Feb</p>
+                              <p class="apk-update">06 Aug</p>
                          </div>
                     </div>
                </div>
@@ -585,10 +565,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v2024.08.0</p>
+                              <p class="apk-version">v2024.17.0</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">21 Feb</p>
+                              <p class="apk-update">26 Jun</p>
                          </div>
                     </div>
                </div>
@@ -609,10 +589,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v2024.04.0</p>
+                              <p class="apk-version">v2024.17.0</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">26 Jan</p>
+                              <p class="apk-update">12 Aug</p>
                          </div>
                     </div>
                </div>
@@ -620,7 +600,7 @@
      </div>
 
 
-
+<!--
      <div class="col-lg-3 col-md-4 col-sm-6  col-6">
           <div class="apk-list-box">
                <div class="apk-ico">
@@ -636,13 +616,13 @@
                               <p class="apk-version">v32.5.3</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">05 Feb</p>
+                              <p class="apk-update">26 Jun</p>
                          </div>
                     </div>
                </div>
           </div>
      </div>
-
+-->
 
 
      <div class="col-lg-3 col-md-4 col-sm-6  col-6">
@@ -680,10 +660,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v21.34</p>
+                              <p class="apk-version">v22.95</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">04 Mar</p>
+                              <p class="apk-update">06 Aug</p>
                          </div>
                     </div>
                </div>
@@ -703,10 +683,10 @@
                     </a>
                     <div class="row">
                          <div class="col">
-                              <p class="apk-version">v33.0.0.110</p>
+                              <p class="apk-version">v33.9.0.110</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">05 Feb</p>
+                              <p class="apk-update">05 Apr</p>
                          </div>
                     </div>
                </div>
@@ -729,7 +709,7 @@
                               <p class="apk-version">v2.2.7</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">21 Feb</p>
+                              <p class="apk-update">06 Apr</p>
                          </div>
                     </div>
                </div>
@@ -775,7 +755,7 @@
                               <p class="apk-version">v4.29</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">21 Feb</p>
+                              <p class="apk-update">26 Jun</p>
                          </div>
                     </div>
                </div>
@@ -821,7 +801,7 @@
                               <p class="apk-version">v3.3.1</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">21 Feb</p>
+                              <p class="apk-update">04 May</p>
                          </div>
                     </div>
                </div>
@@ -844,7 +824,52 @@
                               <p class="apk-version">v4.6377</p>
                          </div>
                          <div class="col">
-                              <p class="apk-update">05 Feb</p>
+                              <p class="apk-update">30 Mar</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="col-lg-3 col-md-4 col-sm-6  col-6">
+          <div class="apk-list-box">
+               <div class="apk-ico">
+                    <a href="/newpipe">
+                         <img src="/assets/img/newpipe.png"> </a>
+               </div>
+               <div class="apk-content">
+                    <a href="/newpipe">
+                         <p class="apk-title">NewPipe</p>
+                    </a>
+                    <div class="row">
+                         <div class="col">
+                              <p class="apk-version">v0.27.2</p>
+                         </div>
+                         <div class="col">
+                              <p class="apk-update">26 Jul</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+
+     <div class="col-lg-3 col-md-4 col-sm-6  col-6">
+          <div class="apk-list-box">
+               <div class="apk-ico">
+                    <a href="/revanced-google-photos">
+                         <img src="/assets/img/apps/com.google.android.apps.photos.png"> </a>
+               </div>
+               <div class="apk-content">
+                    <a href="/revanced-google-photos">
+                         <p class="apk-title">Google Photos</p>
+                    </a>
+                    <div class="row">
+                         <div class="col">
+                              <p class="apk-version">v6.95.0.663027175</p>
+                         </div>
+                         <div class="col">
+                              <p class="apk-update">15 Aug</p>
                          </div>
                     </div>
                </div>
@@ -858,8 +883,10 @@
 
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.11/pako.min.js"></script>
+<script src="/assets/js/download.js?v=1.2"></script>
 
-<script src="assets/js/download.js?v=1.1"></script>
+
 
 
     </main>
@@ -883,7 +910,7 @@
     <div id="preloader"></div>
 
     <script  src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-    <script  src="assets/js/main.js"></script>
+    <script  src="/assets/js/main.js"></script>
 
 
 </body>

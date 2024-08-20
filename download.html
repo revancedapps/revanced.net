@@ -9,7 +9,7 @@
 
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Page not found - revanced.net</title>
+    <title>Download YouTube video - revanced.net</title>
 
     
     <meta name="description"
@@ -122,7 +122,7 @@
             <div class="table-cell">
                 <div class="container">
                     <h1 class="intro-title mb-4">
-                        <span class="revanced--gradient">404 - YouTube ReVanced</span>
+                        <span class="revanced--gradient">Video Downloader</span>
                     </h1>
 
                     
@@ -135,17 +135,184 @@
 
     <main id="main">
 
-        <div class="container">
-  <div class="row">
-    <div class="col-12 text-center my-5">
-      <h1>404</h1>
-      <p><strong>Page not found :(</strong></p>
-      <p>The requested page could not be found.</p>
-    </div>
-  </div>
+        <style>
+    .thumbnail {
+        margin: 0 auto;
+        vertical-align: middle;
+        border: 0;
+    }
+
+    .thumbnail img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col align-items-center text-center">
+                <p>
+                    <img src="#" id="txt-img" class="d-none img-thumbnail"/>
+                </p>
+                <p id="txt-title" class="text-sussces d-none mt-1"></p>
+            </div>
+        </div>
+        <div class="row" id="loading-bar">
+            <div class="col align-items-center">
+                <img src="/assets/img/spinner-1s-500px.svg"  style="width: 100%; height: 100px;">
+            </div>
+        </div>
+
+        <div class="row  mt-2" id="status-msg">
+            <div class="col align-items-center text-center">
+                <p id="msg-text" class="text-sussces">Requesting your file...</p>
+            </div>
+        </div>
+
+        <div class="row d-none mt-3" id="err-msg">
+            <div class="col align-items-center text-center">
+                <p id="err-msg-text" class="text-danger"></p>
+            </div>
+        </div>
+
+       
 
 
-  
+        <div class="row mt-5">
+
+            <div class="col">
+                <div class="mt-5 mx-3 px-3 my-3" >
+
+                    <button type="button" class="btn btn-success my-2 d-block w-100" onclick="downloadOtherFormat();">
+                        <i class="glyphicon glyphicon-download-alt"></i>&nbsp; Download other format
+                    </button>
+
+                    <button type="button" class="btn btn-warning my-2 d-block w-100" onclick="downloadNewUrl();">
+                        <i class="glyphicon glyphicon-download-alt"></i>&nbsp; Download new URL
+                    </button>
+
+             
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h2 class="title-a">
+                        How to download videos from YouTube
+                    </h2>
+                    <div class="line-mf"></div>
+                </div>
+                <div class="box-shadow-full">
+                    <h4>Introduction</h4>
+                    <p>Downloading YouTube videos by URL allows you to save videos directly to your device for offline
+                        viewing or other purposes. In this guide, we will walk you through the process of downloading
+                        YouTube videos using a reliable online tool.</p>
+
+                    <p>Note: Downloading copyrighted content without permission is against YouTube's terms of service
+                        and may infringe upon copyright laws. Ensure that you have the necessary rights or permissions
+                        to download the video before proceeding.</p>
+
+                    <h4>Step 1: Find the YouTube video you want to download</h4>
+                    <ul>
+                        <li>Open your web browser and go to www.youtube.com.</li>
+                        <li>Use the search bar to find the video you want to download.</li>
+                        <li>Click on the video to open it.</li>
+                    </ul>
+
+                    <h4>Step 2: Copy the video URL</h4>
+                    <ul>
+                        <li>Once the video is open, locate the address bar at the top of your web browser.</li>
+                        <li>Click inside the address bar to select the entire URL.</li>
+                        <li>Right-click on the selected URL and choose "Copy" from the context menu.</li>
+                        <li>Alternatively, you can use the keyboard shortcut Ctrl+C (Windows) or Command+C (Mac) to copy
+                            the URL.</li>
+                    </ul>
+
+
+                    <h4>Step 3: Go to revanced.net</h4>
+                    <ul>
+                        <li>Open a new tab in your web browser.</li>
+                        <li>Enter URL <a href="https://revanced.net/download-youtube">revanced.net</a> into the address bar.
+                        </li>
+                        <li>Press Enter to navigate to the website.</li>
+                    </ul>
+
+                    <h4>Step 4: Paste the YouTube video URL</h4>
+                    <ul>
+                        <li>Once you're on the video downloader website, you should see a text box where you can enter
+                            the YouTube video URL.</li>
+                        <li>Right-click inside the text box and choose "Paste" from the context menu.</li>
+                        <li>Alternatively, you can use the keyboard shortcut Ctrl+V (Windows) or Command+V (Mac) to
+                            paste the URL.</li>
+                    </ul>
+
+                    <h4>Step 5: Initiate the download</h4>
+                    <ul>
+                        <li>After pasting the YouTube video URL, locate the download button or option on the video
+                            downloader website.</li>
+                        <li>Click on the download button to initiate the downloading process.</li>
+                        <li>Some video downloaders may offer options to choose the video quality or format. Select your
+                            preferred options if available.</li>
+                    </ul>
+
+                    <h4>Step 6: Download the video</h4>
+                    <ul>
+                        <li>Once you click the download button, the video downloader will analyze the YouTube video URL
+                            and generate the download link.</li>
+                        <li>Wait for the video downloader to process the video.</li>
+                        <li>Once the download link is ready, you will be presented with a download button or link.</li>
+                        <li>Click on the download button or link to start the video download.</li>
+                    </ul>
+
+                    <h4>Step 7: Save the video</h4>
+                    <ul>
+                        <li>After clicking the download button, a dialog box will appear asking you to choose the
+                            location on your device where you want to save the video.</li>
+                        <li>Select the desired destination folder or location and click "Save" to save the video.</li>
+                    </ul>
+
+                    <h4>Step 8: Verify the downloaded video</h4>
+                    <ul>
+                        <li>Once the video is downloaded, navigate to the folder or location where you saved it.</li>
+                        <li>Double-click on the video file to open and verify that it plays correctly.</li>
+                    </ul>
+
+                    <h4>Conclusion:</h4>
+                    <p>By following the steps outlined in this guide, you can easily download YouTube videos by URL
+                        using a reliable online video downloader. Remember to respect copyright laws and ensure that you
+                        have the necessary rights or permissions before downloading and using videos from YouTube or any
+                        other platform.</p>
+                    <hr>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h2 class="title-a">
+                        ReVanced.net - Best YouTube Video Downloader
+                    </h2>
+                    <div class="line-mf"></div>
+                </div>
+                <div class="box-shadow-full">
+                    <p>
+                        ReVanced.net is an online platform that allows users to download videos and audio from various
+                        websites, including YouTube. It provides a service for converting YouTube videos into
+                        downloadable formats, such as MP4 or MP3. Users can simply paste the YouTube video link into
+                        revanced.net and choose the desired format and quality for the download. revanced.net is popular
+                        among those who want to save YouTube videos for offline viewing or to extract audio from videos.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+          
   <div class="row">
 
 
@@ -673,10 +840,9 @@
 </div>
 
 
-  </div>
-
-
-</div>
+    </div>
+</section>
+<script src="/assets/js/downloading.js?v=1.2"></script>
 
 
     </main>
