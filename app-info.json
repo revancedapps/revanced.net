@@ -7,10 +7,28 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-30/revanced.net_newpipe_v0.27.2.apk"
     },
     {
+      "packageTitle": "revanced_amazon_shopping",
+      "packageName": "com.amazon.mShop.android.shopping"
+    },
+    {
       "packageTitle": "revanced_backdrops",
       "packageName": "com.backdrops.wallpapers",
       "version": "4.52",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-18/revanced.net_revanced_backdrops_v4.52_cli4.6.0_p4.8.0.10.apk"
+    },
+    {
+      "packageTitle": "revanced_baconreader_for_reddit",
+      "packageName": "com.onelouder.baconreader"
+    },
+    {
+      "packageTitle": "revanced_bandcamp",
+      "packageName": "com.bandcamp.android",
+      "version": "3.1.3",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_bandcamp_v3.1.3_cli4.6.0_p4.17.0.9.apk"
+    },
+    {
+      "packageTitle": "revanced_boost_for_reddit",
+      "packageName": "com.rubenmayayo.reddit"
     },
     {
       "packageTitle": "revanced_candylink_vpn",
@@ -21,8 +39,18 @@
     {
       "packageTitle": "revanced_duolingo",
       "packageName": "com.duolingo",
-      "version": "5.129.5",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-49/revanced.net_revanced_duolingo_v5.129.5_cli4.2.0_p2.201.0.apk"
+      "version": "5.158.4",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_duolingo_v5.158.4_cli4.6.0_p4.17.0.6.apk"
+    },
+    {
+      "packageTitle": "revanced_facebook",
+      "packageName": "com.facebook.katana"
+    },
+    {
+      "packageTitle": "revanced_facebook_messenger",
+      "packageName": "com.facebook.orca",
+      "version": "439.0.0.29.119",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_facebook_messenger_v439.0.0.29.119_cli4.6.0_p4.17.0.9.apk"
     },
     {
       "packageTitle": "revanced_gms_microg",
@@ -31,10 +59,22 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-14/revanced.net_revanced_gms_microg_v0.3.1.4.240913.apk"
     },
     {
-      "packageTitle": "revanced_google_photos",
+      "packageTitle": "revanced_google_news",
+      "packageName": "com.google.android.apps.magazines",
+      "version": "5.108.0.644447823",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_google_news_v5.108.0.644447823_cli4.6.0_p4.17.0.9.apk"
+    },
+    {
+      "packageTitle": "revanced_google_photos_arm64_v7a",
       "packageName": "app.revanced.android.photos",
-      "version": "6.95.0.663027175",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-33/revanced.net_revanced_google_photos_v6.95.0.663027175_cli5.0.0.3_p4.13.0.1.apk"
+      "version": "7.4.0.688281553",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-44/revanced.net_revanced_google_photos_arm64_v7a_v7.4.0.688281553_cli4.6.0_p4.18.0.6.apk"
+    },
+    {
+      "packageTitle": "revanced_google_photos_arm64_v8a",
+      "packageName": "app.revanced.android.photos",
+      "version": "7.4.0.688281553",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-44/revanced.net_revanced_google_photos_arm64_v8a_v7.4.0.688281553_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_google_recorder",
@@ -45,6 +85,10 @@
       "packageName": "ginlemon.iconpackstudio",
       "version": "2.2.build.016",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-51/revanced.net_revanced_icon_pack_studio_v2.2.build.016_cli4.3.0_p3.1.0.apk"
+    },
+    {
+      "packageTitle": "revanced_infinity_for_reddit",
+      "packageName": "ml.docilealligator.infinityforreddit"
     },
     {
       "packageTitle": "revanced_inshorts",
@@ -89,10 +133,18 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-50/revanced.net_revanced_messenger_v437.0.0.26.230_cli4.3.0_p2.202.0.apk"
     },
     {
+      "packageTitle": "revanced_mi_fitness",
+      "packageName": "com.xiaomi.wearable"
+    },
+    {
       "packageTitle": "revanced_microg",
       "packageName": "com.mgoogle.android.gms",
       "version": "0.3.0.234415",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-49/revanced.net_revanced_microg_v0.3.0.234415.apk"
+    },
+    {
+      "packageTitle": "revanced_myfitnesspal",
+      "packageName": "com.myfitnesspal.android"
     },
     {
       "packageTitle": "revanced_netguard",
@@ -107,26 +159,44 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-14/revanced.net_revanced_nyx_player_v2.2.7_cli4.6.0_p4.6.1.2.apk"
     },
     {
+      "packageTitle": "revanced_photomath",
+      "packageName": "com.microblink.photomath",
+      "version": "8.37.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_photomath_v8.37.0_cli4.6.0_p4.17.0.9.apk"
+    },
+    {
       "packageTitle": "revanced_pixiv",
       "packageName": "jp.pxv.android",
       "version": "6.97.0",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-6/revanced.net_revanced_pixiv_v6.97.0_cli4.4.0_p4.1.0.2.apk"
     },
     {
-      "packageTitle": "revanced_rar",
-      "packageName": "com.rarlab.rar"
+      "packageTitle": "revanced_recorder",
+      "packageName": "com.google.android.apps.recorder"
     },
     {
       "packageTitle": "revanced_reddit",
       "packageName": "com.reddit.frontpage",
       "version": "2024.17.0",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-26/revanced.net_revanced_reddit_v2024.17.0_cli4.6.0_p4.10.1.2.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_reddit_v2024.17.0_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_reddit_ext",
       "packageName": "com.reddit.frontpage",
       "version": "2024.17.0",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-33/revanced.net_revanced_reddit_ext_v2024.17.0_cli4.6.1_p4.12.3.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-38/revanced.net_revanced_reddit_ext_v2024.17.0_cli4.6.1_p4.13.2.1.apk"
+    },
+    {
+      "packageTitle": "revanced_relay_for_reddit",
+      "packageName": "free.reddit.news"
+    },
+    {
+      "packageTitle": "revanced_rif_is_fun_for_reddit",
+      "packageName": "com.andrewshu.android.reddit"
+    },
+    {
+      "packageTitle": "revanced_slide_for_reddit",
+      "packageName": "me.ccrama.redditslide"
     },
     {
       "packageTitle": "revanced_solid_explorer_file_manager",
@@ -141,14 +211,32 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-6/revanced.net_revanced_sony_headphones_connect_v10.1.0_cli4.4.0_p4.1.0.2.apk"
     },
     {
+      "packageTitle": "revanced_sony_sound_connect",
+      "packageName": "com.sony.songpal.mdr",
+      "version": "10.1.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_sony_sound_connect_v10.1.0_cli4.6.0_p4.17.0.9.apk"
+    },
+    {
       "packageTitle": "revanced_soundcloud",
       "packageName": "com.soundcloud.android"
+    },
+    {
+      "packageTitle": "revanced_spotify",
+      "packageName": "com.spotify.music"
+    },
+    {
+      "packageTitle": "revanced_stocard",
+      "packageName": "de.stocard.stocard"
     },
     {
       "packageTitle": "revanced_strava",
       "packageName": "com.strava",
       "version": "321.10",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-36/revanced.net_revanced_strava_v321.10.apk"
+    },
+    {
+      "packageTitle": "revanced_sync_for_lemmy",
+      "packageName": "io.syncapps.lemmy_sync"
     },
     {
       "packageTitle": "revanced_sync_for_reddit",
@@ -163,8 +251,8 @@
     {
       "packageTitle": "revanced_tiktok",
       "packageName": "com.ss.android.ugc.trill",
-      "version": "32.5.3",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-26/revanced.net_revanced_tiktok_v32.5.3_cli4.6.0_p4.10.1.2.apk"
+      "version": "36.5.4",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-39/revanced.net_revanced_tiktok_v36.5.4_cli4.6.0_p4.15.1.2.apk"
     },
     {
       "packageTitle": "revanced_trakt",
@@ -197,16 +285,32 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-28/revanced.net_revanced_twitter_piko_v10.49.0-release.0_cli4.6.0_p1.30.0.4.apk"
     },
     {
+      "packageTitle": "revanced_warnwetter",
+      "packageName": "de.dwd.warnapp",
+      "version": "4.2.2",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_warnwetter_v4.2.2_cli4.6.0_p4.17.0.9.apk"
+    },
+    {
       "packageTitle": "revanced_windy_app",
       "packageName": "co.windyapp.android",
       "version": "34.0.2",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-49/revanced.net_revanced_windy_app_v34.0.2_cli4.2.0_p2.201.1.apk"
     },
     {
+      "packageTitle": "revanced_winrar",
+      "packageName": "com.rarlab.rar"
+    },
+    {
+      "packageTitle": "revanced_x",
+      "packageName": "com.twitter.android",
+      "version": "10.48.0-release.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_x_v10.48.0-release.0_cli4.6.0_p4.17.0.9.apk"
+    },
+    {
       "packageTitle": "revanced_youtube",
       "packageName": "app.revanced.android.youtube",
-      "version": "19.16.39",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-32/revanced.net_revanced_youtube_v19.16.39_cli4.6.0_p4.12.0.apk"
+      "version": "19.34.42",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_v19.34.42_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_youtube_anddea_ext",
@@ -230,7 +334,7 @@
       "packageTitle": "revanced_youtube_kitadai",
       "packageName": "app.rvx.android.youtube",
       "version": "17.34.36",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-25/revanced.net_revanced_youtube_kitadai_v17.34.36_cli3.1.4_p2.160.10.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-35/revanced.net_revanced_youtube_kitadai_v17.34.36_cli3.1.4_p2.160.11.apk"
     },
     {
       "packageTitle": "revanced_youtube_kitadai_android5",
@@ -241,38 +345,38 @@
     {
       "packageTitle": "revanced_youtube_magisk",
       "packageName": "com.",
-      "version": "19.16.39",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-23/revanced.net_revanced_youtube_magisk_v19.16.39.zip"
+      "version": "19.34.42",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_magisk_v19.34.42.zip"
     },
     {
       "packageTitle": "revanced_youtube_music",
       "packageName": "app.revanced.android.apps.youtube.music",
       "version": "7.03.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-32/revanced.net_revanced_youtube_music_v7.03.52_cli4.6.0_p4.12.0.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_music_v7.03.52_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_anddea_ext",
       "packageName": "anddea.youtube.music",
-      "version": "7.13.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-32/revanced.net_revanced_youtube_music_anddea_ext_v7.13.52_cli4.6.1_p2.228.0.11.apk"
+      "version": "7.17.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-37/revanced.net_revanced_youtube_music_anddea_ext_v7.17.51_cli4.6.1_p2.229.0.4.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_ext",
       "packageName": "app.rvx.android.apps.youtube.music",
-      "version": "7.13.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-33/revanced.net_revanced_youtube_music_ext_v7.13.52_cli4.6.1_p4.12.3.apk"
+      "version": "7.17.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-36/revanced.net_revanced_youtube_music_ext_v7.17.51_cli4.6.1_p4.13.1.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_ext",
       "packageName": "app.rvx.android.apps.youtube.music",
-      "version": "7.13.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-33/revanced.net_revanced_youtube_music_ext_v7.13.52_cli4.6.1_p4.12.3.apk"
+      "version": "7.17.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-36/revanced.net_revanced_youtube_music_ext_v7.17.51_cli4.6.1_p4.13.1.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_magisk",
       "packageName": "com.",
-      "version": "7.03.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-23/revanced.net_revanced_youtube_music_magisk_v7.03.52.zip"
+      "version": "7.23.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_music_magisk_v7.23.51.zip"
     },
     {
       "packageTitle": "revanced_youtube_music_rufusin_ext",
@@ -297,16 +401,28 @@
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-26/revanced.net_revanced_yuka_v4.29_cli4.6.0_p4.10.1.2.apk"
     },
     {
-      "packageTitle": "smarttube",
+      "packageTitle": "smarttube_arm64_v7a",
       "packageName": "com.teamsmart.videomanager.tv",
-      "version": "22.95",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-32/revanced.net_smarttube_v22.95.apk"
+      "version": "24.37",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_smarttube_arm64_v7a_v24.37.apk"
+    },
+    {
+      "packageTitle": "smarttube_arm64_v8a",
+      "packageName": "com.teamsmart.videomanager.tv",
+      "version": "24.37",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_smarttube_arm64_v8a_v24.37.apk"
+    },
+    {
+      "packageTitle": "smarttube_x86",
+      "packageName": "com.teamsmart.videomanager.tv",
+      "version": "24.37",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_smarttube_x86_v24.37.apk"
     },
     {
       "packageTitle": "sp",
       "packageName": "com.sp.music",
-      "version": "8.9.18.512",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-10/revanced.net_sp_v8.9.18.512.apk"
+      "version": "8.9.84.594",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_sp_v8.9.84.594.apk"
     }
   ]
 }
