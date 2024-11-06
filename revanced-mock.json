@@ -1,0 +1,193 @@
+{
+  "packages": [
+    {
+      "packageTitle": "revanced_manager",
+      "packageName": "com.revanced.net.revancedmanager",
+      "version": "1.9.25",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-18/revanced.net_revanced_manager_v1.9.25.apk",
+      "appName": "ReVanced Manager",
+      "description": "ReVanced Manager is a free app from revanced.net that lets you install and manage YouTube ReVanced, MicroG, and other apps.",
+      "logo": "https://revanced.net/assets/img/apps/com.revanced.net.revancedmanager.png"
+    },
+    {
+      "packageTitle": "revanced_youtube",
+      "packageName": "app.revanced.android.youtube",
+      "version": "19.16.39",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-37/revanced.net_revanced_youtube_v19.16.39_cli4.6.0_p4.14.0.9.apk",
+      "appName": "Youtube ReVanced",
+      "description": "YouTube Revanced is a modified version of the official YouTube that blocks ads and allows users to play videos in the background.",
+      "logo": "https://revanced.net/assets/img/apps/app.revanced.android.youtube.png"
+    },
+    {
+      "packageTitle": "revanced_gms_microg",
+      "packageName": "app.revanced.android.gms",
+      "version": "0.3.1.4.240913",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-14/revanced.net_revanced_gms_microg_v0.3.1.4.240913.apk",
+      "appName": "MicroG",
+      "description": "MicroG is a free, open-source, and privacy-focused alternative to Google Play Services.",
+      "logo": "https://revanced.net/assets/img/apps/app.revanced.android.gms.png"
+    },
+    {
+      "packageTitle": "revanced_youtube_music",
+      "packageName": "app.revanced.android.apps.youtube.music",
+      "version": "7.03.52",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-38/revanced.net_revanced_youtube_music_v7.03.52_cli4.6.0_p4.14.0.12.apk",
+      "appName": "Youtube Music ReVanced",
+      "description": "A free, ad-free, and modded version of YouTube Music with background playback and lyrics.",
+      "logo": "https://revanced.net/assets/img/apps/app.revanced.android.apps.youtube.music.png"
+    },
+    {
+      "packageTitle": "revanced_youtube_anddea_ext",
+      "packageName": "anddea.youtube",
+      "version": "19.25.39",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-28/revanced.net_revanced_youtube_anddea_ext_v19.25.39_cli4.6.1_p2.227.0.19.apk",
+      "appName": "Youtube ReVanced Extended - Anddea",
+      "description": "This is the latest and most frequently updated version of YouTube ReVanced Extended, developed by Anddea.",
+      "logo": "https://revanced.net/assets/img/apps/anddea.youtube.png"
+    },
+    {
+      "packageTitle": "revanced_youtube_music_anddea_ext",
+      "packageName": "anddea.youtube.music",
+      "version": "7.17.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-37/revanced.net_revanced_youtube_music_anddea_ext_v7.17.51_cli4.6.1_p2.229.0.4.apk",
+      "appName": "ReVanced YT Music Extended  - Anddea",
+      "description": "This is the latest and most frequently updated version of YouTube Music ReVanced Extended, developed by Anddea.",
+      "logo": "https://revanced.net/assets/img/apps/anddea.youtube.music.png"
+    },
+    {
+      "packageTitle": "revanced_lightroom",
+      "packageName": "com.adobe.lrmobile",
+      "version": "9.4.3",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-32/revanced.net_revanced_lightroom_v9.4.3_cli4.6.0_p4.12.0.apk",
+      "appName": "ReVanced Lightroom",
+      "description": "Revanced Lightroom is a modded version of the Adobe Lightroom app that unlocks all premium features for free.",
+      "logo": "https://revanced.net/assets/img/apps/com.adobe.lrmobile.png"
+    },
+    {
+      "packageTitle": "revanced_reddit",
+      "packageName": "com.reddit.frontpage",
+      "version": "2024.17.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-38/revanced.net_revanced_reddit_v2024.17.0_cli4.6.0_p4.14.0.12.apk",
+      "appName": "Reddit ReVanced",
+      "description": "Reddit is a social news website where users submit content and vote on it. The most popular content is displayed to the most people.",
+      "logo": "https://revanced.net/assets/img/apps/com.reddit.frontpage.png"
+    },
+    {
+      "packageTitle": "revanced_tiktok",
+      "packageName": "com.ss.android.ugc.trill",
+      "version": "32.5.3",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-35/revanced.net_revanced_tiktok_v32.5.3_cli4.6.0_p4.14.0.2.apk",
+      "appName": "TikTok ReVanced",
+      "description": "TikTok ReVanced is a free, ad-free, and modded version of TikTok with additional features such as no watermark, no live stream ads, and more...",
+      "logo": "https://revanced.net/assets/img/apps/com.ss.android.ugc.trill.png"
+    },
+    {
+      "packageTitle": "revanced_twitch",
+      "packageName": "tv.twitch.android.app",
+      "version": "17.1.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-48/revanced.net_revanced_twitch_v17.1.0.apk",
+      "appName": "ReVanced Twitch",
+      "description": "ReVanced Twitch is a modified version of the Twitch that offers a number of premium features for free, including ad-free, background playback, higher video quality...",
+      "logo": "https://revanced.net/assets/img/apps/tv.twitch.android.app.png"
+    },
+    {
+      "packageTitle": "smarttube",
+      "packageName": "com.teamsmart.videomanager.tv",
+      "version": "23.59",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-38/revanced.net_smarttube_v23.59.apk",
+      "appName": "SmartTube - YouTube for TV",
+      "description": "SmartTube is an open-source, ad-free version of the YouTube app for Android TVs and TV boxes.",
+      "logo": "https://revanced.net/assets/img/apps/com.teamsmart.videomanager.tv.png"
+    },
+    {
+      "packageTitle": "revanced_tumblr",
+      "packageName": "com.tumblr",
+      "version": "33.9.0.110",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-14/revanced.net_revanced_tumblr_v33.9.0.110_cli4.6.0_p4.6.1.2.apk",
+      "appName": "ReVanced Tumblr",
+      "description": "ReVanced Tumblr is a modified version of the official Tumblr app that removes ads and other unwanted features.",
+      "logo": "https://revanced.net/assets/img/apps/com.tumblr.png"
+    },
+    {
+      "packageTitle": "revanced_nyx_player",
+      "packageName": "com.awedea.nyx",
+      "version": "2.2.7",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-14/revanced.net_revanced_nyx_player_v2.2.7_cli4.6.0_p4.6.1.2.apk",
+      "appName": "ReVanced Nyx Music Player",
+      "description": "The Revanced NYX Music Player is a modified version of the NYX Music Player with unlocked pro features.",
+      "logo": "https://revanced.net/assets/img/apps/com.awedea.nyx.png"
+    },
+    {
+      "packageTitle": "sp",
+      "packageName": "com.spotify.music",
+      "version": "8.9.18.512",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-10/revanced.net_sp_v8.9.18.512.apk",
+      "appName": "Spotify",
+      "description": "A modified version of the official Spotify app with amoled black theme...",
+      "logo": "https://revanced.net/assets/img/apps/com.spotify.music.png"
+    },
+    {
+      "packageTitle": "revanced_microg",
+      "packageName": "com.mgoogle.android.gms",
+      "version": "0.3.0.234415",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2023-49/revanced.net_revanced_microg_v0.3.0.234415.apk",
+      "appName": "MicroG (old)",
+      "description": "MicroG is a free, open-source, and privacy-focused alternative to Google Play Services.",
+      "logo": "https://revanced.net/assets/img/apps/com.mgoogle.android.gms.png"
+    },
+    {
+      "packageTitle": "revanced_youtube_ext",
+      "packageName": "app.rvx.android.youtube",
+      "version": "19.25.39",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-27/revanced.net_revanced_youtube_ext_v19.25.39_cli4.6.1_p4.10.1.apk",
+      "appName": "Youtube ReVanced Extended",
+      "description": "RVX YouTube is a free, ad-free, and modded version of YouTube with background playback, sponsorblock, and more features.",
+      "logo": "https://revanced.net/assets/img/apps/app.rvx.android.youtube.png"
+    },
+    {
+      "packageTitle": "revanced_youtube_music_ext",
+      "packageName": "app.rvx.android.apps.youtube.music",
+      "version": "7.17.51",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-36/revanced.net_revanced_youtube_music_ext_v7.17.51_cli4.6.1_p4.13.1.apk",
+      "appName": "ReVanced YT Music Extended",
+      "description": "A modified version of the YouTube Music app that removes ads additional features like background playback, sponsorblock...",
+      "logo": "https://revanced.net/assets/img/apps/app.rvx.android.apps.youtube.music.png"
+    },
+    {
+      "packageTitle": "revanced_reddit_ext",
+      "packageName": "com.reddit.frontpage",
+      "version": "2024.17.0",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-38/revanced.net_revanced_reddit_ext_v2024.17.0_cli4.6.1_p4.13.2.1.apk",
+      "appName": "RVX Reddit",
+      "description": "RVX Reddit is an other modified version of the official Reddit app that removes ads, adds features, and improves the overall user experience.",
+      "logo": "https://revanced.net/assets/img/apps/com.reddit.frontpage.png"
+    },
+    {
+      "packageTitle": "revanced_duolingo",
+      "packageName": "com.duolingo",
+      "version": "5.158.4",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-38/revanced.net_revanced_duolingo_v5.158.4_cli4.6.0_p4.14.0.12.apk",
+      "appName": "ReVanced Duolingo",
+      "description": "Modded version of the Duolingo language learning app with premium features, such as unlimited hearts, streak freezes, ad removal...",
+      "logo": "https://revanced.net/assets/img/apps/com.duolingo.png"
+    },
+    {
+      "packageTitle": "revanced_youtube_rufusin_ext",
+      "packageName": "app.rve.android.youtube",
+      "version": "19.16.39",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-19/revanced.net_revanced_youtube_rufusin_ext_v19.16.39_cli4.6.1_p2.224.9.apk",
+      "appName": "Youtube ReVanced Extended - Rufusin",
+      "description": "Another version of YouTube ReVanced Extended, developed in collaboration with Rufusin.",
+      "logo": "https://revanced.net/assets/img/apps/app.rve.android.youtube.png"
+    },
+	{
+		  "packageTitle": "revanced_youtube_music_rufusin_ext",
+		  "packageName": "com.rve.android.apps.youtube.music",
+		  "version": "6.41.59",
+		  "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-19/revanced.net_revanced_youtube_music_rufusin_ext_v6.41.59_cli4.6.1_p2.224.9.apk",
+		  "appName": "ReVanced YT Music Extended - Rufusin",
+		  "description": "Another version of YouTube Music ReVanced Extended, developed in collaboration with Rufusin.",
+		  "logo": "https://revanced.net/assets/img/apps/com.rve.android.apps.youtube.music.png"
+		}
+  ]
+}
