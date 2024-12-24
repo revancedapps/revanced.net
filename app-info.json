@@ -40,7 +40,7 @@
       "packageTitle": "revanced_duolingo",
       "packageName": "com.duolingo",
       "version": "5.158.4",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-42/revanced.net_revanced_duolingo_v5.158.4_cli4.6.0_p4.17.0.6.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-45/revanced.net_revanced_duolingo_v5.158.4_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_facebook",
@@ -67,14 +67,14 @@
     {
       "packageTitle": "revanced_google_photos_arm64_v7a",
       "packageName": "app.revanced.android.photos",
-      "version": "7.6.0.690341299",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-44/revanced.net_revanced_google_photos_arm64_v7a_v7.6.0.690341299_cli4.6.0_p4.18.0.6.apk"
+      "version": "7.8.0.695767955",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_google_photos_arm64_v7a_v7.8.0.695767955_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_google_photos_arm64_v8a",
       "packageName": "app.revanced.android.photos",
-      "version": "7.6.0.690341299",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-44/revanced.net_revanced_google_photos_arm64_v8a_v7.6.0.690341299_cli4.6.0_p4.18.0.6.apk"
+      "version": "7.8.0.695767955",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_google_photos_arm64_v8a_v7.8.0.695767955_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_google_recorder",
@@ -117,8 +117,8 @@
     {
       "packageTitle": "revanced_manager",
       "packageName": "com.revanced.net.revancedmanager",
-      "version": "1.9.25",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-18/revanced.net_revanced_manager_v1.9.25.apk"
+      "version": "2.0.2",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_manager_v2.0.2.apk"
     },
     {
       "packageTitle": "revanced_meme_generator",
@@ -309,8 +309,8 @@
     {
       "packageTitle": "revanced_youtube",
       "packageName": "app.revanced.android.youtube",
-      "version": "19.34.42",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_v19.34.42_cli4.6.0_p4.18.0.6.apk"
+      "version": "19.43.41",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-45/revanced.net_revanced_youtube_v19.43.41_cli5.0.0.10_p5.0.0.1.apk"
     },
     {
       "packageTitle": "revanced_youtube_anddea_ext",
@@ -345,38 +345,56 @@
     {
       "packageTitle": "revanced_youtube_magisk",
       "packageName": "com.",
-      "version": "19.34.42",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_magisk_v19.34.42.zip"
+      "version": "19.43.41",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_youtube_magisk_v19.43.41.zip"
     },
     {
-      "packageTitle": "revanced_youtube_music",
+      "packageTitle": "revanced_youtube_music_anddea_ext_arm64_v7a",
+      "packageName": "anddea.youtube.music",
+      "version": "7.16.53",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_youtube_music_anddea_ext_arm64_v7a_v7.16.53_cli4.6.2_p2.232.0.1.apk"
+    },
+    {
+      "packageTitle": "revanced_youtube_music_anddea_ext_arm64_v8a",
+      "packageName": "anddea.youtube.music",
+      "version": "7.16.53",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_youtube_music_anddea_ext_arm64_v8a_v7.16.53_cli4.6.2_p2.232.0.1.apk"
+    },
+    {
+      "packageTitle": "revanced_youtube_music_arm64_v7a",
       "packageName": "app.revanced.android.apps.youtube.music",
       "version": "7.03.52",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_music_v7.03.52_cli4.6.0_p4.18.0.6.apk"
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-45/revanced.net_revanced_youtube_music_arm64_v7a_v7.03.52_cli4.6.0_p4.18.0.6.apk"
     },
     {
-      "packageTitle": "revanced_youtube_music_anddea_ext",
-      "packageName": "anddea.youtube.music",
-      "version": "7.17.51",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-37/revanced.net_revanced_youtube_music_anddea_ext_v7.17.51_cli4.6.1_p2.229.0.4.apk"
-    },
-    {
-      "packageTitle": "revanced_youtube_music_ext",
-      "packageName": "app.rvx.android.apps.youtube.music",
-      "version": "7.17.51",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-36/revanced.net_revanced_youtube_music_ext_v7.17.51_cli4.6.1_p4.13.1.apk"
+      "packageTitle": "revanced_youtube_music_arm64_v8a",
+      "packageName": "app.revanced.android.apps.youtube.music",
+      "version": "7.03.52",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-45/revanced.net_revanced_youtube_music_arm64_v8a_v7.03.52_cli4.6.0_p4.18.0.6.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_ext",
       "packageName": "app.rvx.android.apps.youtube.music",
       "version": "7.17.51",
       "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-36/revanced.net_revanced_youtube_music_ext_v7.17.51_cli4.6.1_p4.13.1.apk"
+    },
+    {
+      "packageTitle": "revanced_youtube_music_ext_arm64_v7a",
+      "packageName": "app.rvx.android.apps.youtube.music",
+      "version": "7.16.53",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_youtube_music_ext_arm64_v7a_v7.16.53_cli4.6.2_p4.16.1.apk"
+    },
+    {
+      "packageTitle": "revanced_youtube_music_ext_arm64_v8a",
+      "packageName": "app.rvx.android.apps.youtube.music",
+      "version": "7.16.53",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_youtube_music_ext_arm64_v8a_v7.16.53_cli4.6.2_p4.16.1.apk"
     },
     {
       "packageTitle": "revanced_youtube_music_magisk",
       "packageName": "com.",
-      "version": "7.23.51",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_revanced_youtube_music_magisk_v7.23.51.zip"
+      "version": "7.27.52",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_revanced_youtube_music_magisk_v7.27.52.zip"
     },
     {
       "packageTitle": "revanced_youtube_music_rufusin_ext",
@@ -403,20 +421,20 @@
     {
       "packageTitle": "smarttube_arm64_v7a",
       "packageName": "com.teamsmart.videomanager.tv",
-      "version": "24.37",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_smarttube_arm64_v7a_v24.37.apk"
+      "version": "24.61",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_smarttube_arm64_v7a_v24.61.apk"
     },
     {
       "packageTitle": "smarttube_arm64_v8a",
       "packageName": "com.teamsmart.videomanager.tv",
-      "version": "24.37",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_smarttube_arm64_v8a_v24.37.apk"
+      "version": "24.61",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_smarttube_arm64_v8a_v24.61.apk"
     },
     {
       "packageTitle": "smarttube_x86",
       "packageName": "com.teamsmart.videomanager.tv",
-      "version": "24.37",
-      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-43/revanced.net_smarttube_x86_v24.37.apk"
+      "version": "24.61",
+      "downloadUrl": "https://github.com/revancedapps/revanced.net/releases/download/2024-46/revanced.net_smarttube_x86_v24.61.apk"
     },
     {
       "packageTitle": "sp",

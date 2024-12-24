@@ -82,7 +82,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://revanced.net/posts/youtube-revanced-server-400-fix-19-46-42</loc>
+    <lastmod>2024-11-27T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://revanced.net/tos</loc>
+    <lastmod>2024-01-01T00:00:00+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://revanced.net/donate</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -137,19 +149,19 @@
   </url>
   <url>
     <loc>https://revanced.net/revanced-manager</loc>
-    <lastmod>2024-05-01T03:57:46+07:00</lastmod>
+    <lastmod>2024-12-16T08:28:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://revanced.net/youtube-revanced</loc>
-    <lastmod>2024-11-07T04:35:15+07:00</lastmod>
+    <lastmod>2024-12-24T03:02:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://revanced.net/revanced-youtube-music</loc>
-    <lastmod>2024-11-04T03:38:58+07:00</lastmod>
+    <lastmod>2024-12-23T14:31:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -173,19 +185,19 @@
   </url>
   <url>
     <loc>https://revanced.net/revanced-youtube-extended</loc>
-    <lastmod>2024-11-06T02:47:40+07:00</lastmod>
+    <lastmod>2024-12-23T14:30:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://revanced.net/revanced-youtube-music-extended</loc>
-    <lastmod>2024-11-06T02:48:04+07:00</lastmod>
+    <lastmod>2024-12-23T14:31:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://revanced.net/newpipe</loc>
-    <lastmod>2024-07-26T02:28:52+07:00</lastmod>
+    <lastmod>2024-12-02T09:46:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -203,7 +215,7 @@
   </url>
   <url>
     <loc>https://revanced.net/revanced-google-photos</loc>
-    <lastmod>2024-11-11T02:42:36+07:00</lastmod>
+    <lastmod>2024-12-23T12:09:52+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -233,7 +245,7 @@
   </url>
   <url>
     <loc>https://revanced.net/revanced-reddit-extended</loc>
-    <lastmod>2024-10-25T03:31:21+07:00</lastmod>
+    <lastmod>2024-12-23T14:41:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -251,19 +263,19 @@
   </url>
   <url>
     <loc>https://revanced.net/revanced-youtube-extended-anddea</loc>
-    <lastmod>2024-11-11T02:42:48+07:00</lastmod>
+    <lastmod>2024-12-23T12:42:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://revanced.net/revanced-youtube-music-extended-anddea</loc>
-    <lastmod>2024-11-11T02:43:27+07:00</lastmod>
+    <lastmod>2024-12-23T14:30:55+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://revanced.net/revanced-youtube-extended-for-android-6-android-7</loc>
-    <lastmod>2024-08-30T06:08:30+07:00</lastmod>
+    <lastmod>2024-12-02T09:46:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -293,19 +305,19 @@
   </url>
   <url>
     <loc>https://revanced.net/youtube-for-tv</loc>
-    <lastmod>2024-11-11T02:43:52+07:00</lastmod>
+    <lastmod>2024-12-21T16:24:10+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://revanced.net/magisk-yt</loc>
-    <lastmod>2024-10-21T07:57:38+07:00</lastmod>
+    <lastmod>2024-11-29T04:02:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://revanced.net/magisk-yt-music</loc>
-    <lastmod>2024-10-21T07:58:03+07:00</lastmod>
+    <lastmod>2024-12-21T16:21:11+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

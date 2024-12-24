@@ -3,24 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube ReVanced - Download YouTube ReVanced APK - revanced.net</title>
-    <meta name="description" content="Download YouTube Vanced, TikTok Vanced, and Vanced Manager APKs for an ad-free, enhanced streaming experience. Get the latest versions now!">
-    <meta name="keywords" content="YouTube Vanced, TikTok Vanced, Vanced Manager APK, ad-free streaming, background playback, modified YouTube, ad-blocking, enhanced video experience, APK download, uninterrupted entertainment, Vanced app updates, latest versions, video streaming enhancements, seamless viewing, video platform modifications">
+    <title>YouTube ReVanced v19.46.42: Server Error 400 Fix and Major Improvements - revanced.net</title>
+    <meta name="description" content="YouTube ReVanced v19.46.42 fixes the server 400 error, introduces new features like custom seekbar themes and miniplayer controls, while improving overall stability and user experience.">
+    <meta name="keywords" content="YouTube ReVanced 19.46.42, server 400 error fix, video playback fix, ReVanced update, YouTube mod, custom themes, playback speed, Android customization">
     <meta name="author" content="ReVanced Apps">
     
 
-    <link rel="canonical" href="https://revanced.net/" />
+    <link rel="canonical" href="https://revanced.net/posts/youtube-revanced-server-400-fix-19-46-42" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://revanced.net/">
-    <meta property="og:title" content="YouTube ReVanced - Download YouTube ReVanced APK">
-    <meta property="og:description" content="Download YouTube Vanced, TikTok Vanced, and Vanced Manager APKs for an ad-free, enhanced streaming experience. Get the latest versions now!">
+    <meta property="og:url" content="https://revanced.net/posts/youtube-revanced-server-400-fix-19-46-42">
+    <meta property="og:title" content="YouTube ReVanced v19.46.42: Server Error 400 Fix and Major Improvements">
+    <meta property="og:description" content="YouTube ReVanced v19.46.42 fixes the server 400 error, introduces new features like custom seekbar themes and miniplayer controls, while improving overall stability and user experience.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://revanced.net/">
-    <meta property="twitter:title" content="YouTube ReVanced - Download YouTube ReVanced APK">
-    <meta property="twitter:description" content="Download YouTube Vanced, TikTok Vanced, and Vanced Manager APKs for an ad-free, enhanced streaming experience. Get the latest versions now!">
+    <meta property="twitter:url" content="https://revanced.net/posts/youtube-revanced-server-400-fix-19-46-42">
+    <meta property="twitter:title" content="YouTube ReVanced v19.46.42: Server Error 400 Fix and Major Improvements">
+    <meta property="twitter:description" content="YouTube ReVanced v19.46.42 fixes the server 400 error, introduces new features like custom seekbar themes and miniplayer controls, while improving overall stability and user experience.">
 
 
 
@@ -38,83 +38,148 @@
 
 
     
-    <script>
-        class VanillaTyped {
-            constructor(element, options) {
-                this.element = element;
-                this.strings = options.strings || [];
-                this.typeSpeed = options.typeSpeed || 80;
-                this.backSpeed = options.backSpeed || 30;
-                this.backDelay = options.backDelay || 1100;
-                this.startDelay = options.startDelay || 500;
-                this.loop = options.loop || true;
-                this.showCursor = options.showCursor || true;
-                this.cursorChar = options.cursorChar || '|';
+    <style>.md-raw-content h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
 
-                this.strIndex = 0;
-                this.charIndex = 0;
-                this.isDeleting = false;
+.md-raw-content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #ffffff;
+}
 
-                this.init();
-            }
+.md-raw-content p {
+    margin-bottom: 1rem;
+    color: #d1d5db;
+    line-height: 1.625;
+}
 
-            init() {
-                if (this.showCursor) {
-                    this.createCursorElement();
-                }
-                setTimeout(() => this.type(), this.startDelay);
-            }
+.md-raw-content ul, .md-raw-content ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
 
-            createCursorElement() {
-                const cursor = document.createElement('span');
-                cursor.innerHTML = this.cursorChar;
-                cursor.style.animation = 'blink 0.7s infinite';
-                this.element.parentNode.insertBefore(cursor, this.element.nextSibling);
+.md-raw-content li {
+    margin-bottom: 0.5rem;
+    color: #d1d5db;
+}
 
-                const style = document.createElement('style');
-                style.innerHTML = `
-                        @keyframes blink {
-                                0% { opacity: 1; }
-                                50% { opacity: 0; }
-                                100% { opacity: 1; }
-                              }
-                        `;
-                document.head.appendChild(style);
-            }
+.md-raw-content a {
+    color: #60a5fa;
+    text-decoration: underline;
+}
 
-            type() {
-                const currentString = this.strings[this.strIndex];
-                const text = this.isDeleting
-                    ? currentString.substring(0, this.charIndex - 1)
-                    : currentString.substring(0, this.charIndex + 1);
+    .md-raw-content a:hover {
+        color: #93c5fd;
+    }
 
-                this.element.innerHTML = text;
+.md-raw-content blockquote {
+    border-left: 4px solid #6b7280;
+    padding-left: 1rem;
+    font-style: italic;
+    margin: 1rem 0;
+    color: #9ca3af;
+}
 
-                let speed = this.isDeleting ? this.backSpeed : this.typeSpeed;
+.md-raw-content pre {
+    background-color: #374151;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
 
-                if (this.isDeleting && text === '') {
-                    this.isDeleting = false;
-                    this.strIndex++;
-                    if (this.strIndex === this.strings.length) {
-                        if (this.loop) {
-                            this.strIndex = 0;
-                        } else {
-                            return;
-                        }
-                    }
-                    speed = this.backDelay;
-                } else if (!this.isDeleting && text === currentString) {
-                    this.isDeleting = true;
-                    speed = this.backDelay;
-                }
+.md-raw-content code {
+    background-color: #374151;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+/* Styles for unordered lists */
+.md-raw-content ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
 
-                this.charIndex = text.length;
+/* Styles for ordered lists */
+.md-raw-content ol {
+    list-style-type: decimal;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
 
-                setTimeout(() => this.type(), speed);
-            }
-        }
+/* Styles for list items */
+.md-raw-content li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
 
-    </script>
+/* Nested list styles */
+.md-raw-content ul ul,
+.md-raw-content ol ul {
+    list-style-type: circle;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.md-raw-content ul ol,
+.md-raw-content ol ol {
+    list-style-type: lower-alpha;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Ensure proper spacing for lists within other elements */
+.md-raw-content p + ul,
+.md-raw-content p + ol {
+    margin-top: -0.5em;
+}
+
+/* Style adjustments for dark mode */
+@media (prefers-color-scheme: dark) {
+    .md-raw-content ul,
+    .md-raw-content ol,
+    .md-raw-content li {
+        color: #e0e0e0;
+    }
+}
+
+
+/*table in markdown */
+.prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.prose table th,
+.prose table td {
+    border: 1px solid #374151;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.prose table th {
+    background-color: #374151;
+    color: white;
+}
+
+.prose table tr:nth-child(even) {
+    background-color: #1f2937;
+}
+
+.md-raw-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+}</style>
 
     <style>
         .min-h-screen-adjusted {
@@ -198,76 +263,109 @@
         </div>
     </nav>
     
-    <header class="relative bg-cover bg-center min-h-screen-adjusted flex items-center justify-center" style="background-image: url('assets/img/intro-bg.webp'); min-height: 700px;">
-        <div class="absolute inset-0 bg-black opacity-60"></div>
-        <div class="container mx-auto px-4 text-center relative z-10">
-            <h1 class="text-5xl font-bold mb-4">
-                YouTube <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-red-600">ReVanced</span>
-            </h1>
-            <h2 class="text-2xl mb-8 h-16">
-                <span id="typed-output"></span>
-            </h2>
-            <a href="#download" class="bg-green-600 text-white font-bold py-3 px-8 rounded-full hover:bg-green-700 transition duration-300 inline-flex items-center">
-                DOWNLOAD <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2  inline-block tesst"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
-            </a>
-        </div>
-    </header>
-
 
     <main>
 
-        
-
-
-
-<section id="download" class="py-8 bg-gray-900">
+        <section class="py-16 bg-gray-900">
     <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold text-center mb-8">Download YouTube ReVanced</h1>
-        <div class="max-w-2xl mx-auto bg-gray-800 rounded-lg p-8">
-            <p class="mb-6 text-center">The simplest way is to download Community ReVanced Manager and use it to install, manage, and update other ReVanced applications with user-friendly features designed for non-technical users.</p>
-            <div class="space-y-4">
-                <a href="/revanced-manager" class="block bg-blue-500 text-white text-center py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
-                    ReVanced Manager 2.0.9 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2  inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
-                </a>
-                <p class="text-center">Or download and install latest pre-built version of YouTube ReVanced and MicroG</p>
-                <a href="/youtube-revanced" class="block bg-red-600 text-white text-center py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300">
-                    YouTube ReVanced 19.47.53 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2  inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
-                </a>
+        <article class="max-w-4xl mx-auto bg-gray-800 rounded-lg p-8 shadow-lg">
+            <h1 class="text-4xl font-bold mb-8 text-white">YouTube ReVanced v19.46.42: Server Error 400 Fix and Major Improvements</h1>
 
-                <a href="/gmscore-microg" class="block bg-green-600 text-white text-center py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">
-                    MicroG 0.3.1.4.240913 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2  inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
-                </a>
+                <img src="/assets/posts/youtube-revanced-there-was-a-problem-with-the-server-400.jpg" alt="YouTube ReVanced v19.46.42: Server Error 400 Fix and Major Improvements" class="w-full rounded-lg mb-8 shadow-lg">
+
+            <div class="prose prose-lg prose-invert max-w-none md-raw-content">
+                <p>We're excited to announce the release of YouTube ReVanced version 19.46.42, which brings important fixes and improvements, most notably resolving the widespread &quot;there was a problem with the server [400]&quot; error that has affected many users since November 21st.</p>
+<h3 id="critical-fix-server-400-error-resolution">Critical Fix: Server 400 Error Resolution</h3>
+<p>The development team has successfully addressed the server 400 error by implementing a solution that involves logging out the iOS client to restore video playback functionality, particularly for kids' videos. This fix ensures that users can once again enjoy uninterrupted video streaming across all content types.</p>
+<h3 id="major-bug-fixes">Major Bug Fixes</h3>
+<ol>
+<li><p><strong>Shorts Components Enhancement:</strong></p>
+<ul>
+<li>Added missing options to the patch system</li>
+<li>Resolved the issue of hidden Shorts action buttons on first app launch</li>
+<li>Improved overall Shorts functionality</li>
+</ul>
+</li>
+<li><p><strong>Playback Speed Improvements:</strong></p>
+<ul>
+<li>Implemented long-press functionality for 2x speed with custom playback speeds</li>
+<li>Added new 'Auto' speed option</li>
+<li>Enhanced speed override behavior when default is set to 1.0x</li>
+</ul>
+</li>
+<li><p><strong>Settings Menu Optimization:</strong></p>
+<ul>
+<li>Fixed menu clipping issues on Android 15 devices</li>
+<li>Added navigation back button in setting sub-menus</li>
+<li>Improved overall settings navigation experience</li>
+</ul>
+</li>
+<li><p><strong>Platform Compatibility:</strong></p>
+<ul>
+<li>Fixed SponsorBlock segment creation crashes on tablet custom ROMs</li>
+<li>Removed broken spoof targets when patching version 19.25+</li>
+<li>Improved overall stability across different devices</li>
+</ul>
+</li>
+</ol>
+<h3 id="new-features">New Features</h3>
+<ol>
+<li><p><strong>Enhanced Theme Customization:</strong></p>
+<ul>
+<li>Custom seekbar color now applies to splash screen animation</li>
+<li>Improved visual consistency throughout the app</li>
+</ul>
+</li>
+<li><p><strong>Miniplayer Controls:</strong></p>
+<ul>
+<li>Added option to disable miniplayer</li>
+<li>Enhanced user control over video playback experience</li>
+</ul>
+</li>
+</ol>
+<h3 id="how-to-update">How to Update</h3>
+<p>To ensure the best experience and avoid the server 400 error, we recommend all users update to this latest version. You can download the update through ReVanced Manager or directly from our website.</p>
+<h3 id="installation-notes">Installation Notes</h3>
+<ol>
+<li>Backup your settings before updating</li>
+<li>Uninstall the previous version (if not using ReVanced Manager)</li>
+<li>Install the new version</li>
+<li>Restart the app after installation</li>
+</ol>
+<h3 id="technical-details">Technical Details</h3>
+<p>For users experiencing persistent issues after update:</p>
+<ul>
+<li>Clear app cache and data</li>
+<li>Ensure MicroG is updated to the latest version</li>
+<li>Check for any conflicting apps or system modifications</li>
+</ul>
+<h3 id="known-issues">Known Issues</h3>
+<p>While this update resolves many critical issues, some minor known issues include:</p>
+<ul>
+<li>Occasional delay in thumbnail loading</li>
+<li>Minor UI inconsistencies in certain device configurations</li>
+</ul>
+<p>We're continuously working to improve the app and resolve any remaining issues. Your feedback helps us make YouTube ReVanced better with each update.</p>
+<h3 id="looking-forward">Looking Forward</h3>
+<p>The team is already working on additional improvements and features for future releases. We appreciate your patience during the server 400 error period and thank you for your continued support of YouTube ReVanced.</p>
+
             </div>
-            <p class="text-center mt-4">
-                Looking for <a href="/old-versions" class="text-blue-500 hover:underline">older versions?</a>
-            </p>
-            <p class="text-center">
-                Want to <a href="/help#build-apk" class="text-blue-500 hover:underline">build your own custom APK?</a>
-            </p>
-        </div>
-    </div>
-</section>
-<section id="download" class="py-8 bg-gray-900">
-    <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold text-center mb-8">YouTube ReVanced Extended</h1>
-        <div class="max-w-2xl mx-auto bg-gray-800 rounded-lg p-8">
-            <p class="mb-6 text-center">
-                ReVanced Extended, created by inotia00, improves on the original YouTube ReVanced with more features and a friendlier UI.
-                <div class="space-y-4">
-                    <a href="/revanced-youtube-extended" class="block bg-yellow-600 text-white text-center py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300">
-                        RVX YT Extended 19.44.39 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2  inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
-                    </a>
-                    <a href="/revanced-youtube-music-extended" class="block bg-violet-600 text-white text-center py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">
-                        RVX YT Music Extended 7.25.53 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2  inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
-                    </a>
+
+
+                <div class="mt-12">
+                    <p class="text-xl font-bold mb-4 text-white">Related downloads:</p>
+                        <p class="text-center mt-4">
+                            <a href="/youtube-revanced" class="block bg-green-600 text-white text-center py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">
+                                YouTube ReVanced 19.47.53<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2 inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
+                            </a>
+                        </p>
+                        <p class="text-center mt-4">
+                            <a href="/gmscore-microg" class="block bg-green-600 text-white text-center py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">
+                                MicroG 0.3.1.4.240913<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 ml-2 inline-block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
+                            </a>
+                        </p>
                 </div>
-                
-                <div class="mt-6 p-4 bg-gray-700 text-gray-300 border border-gray-600 rounded-lg">
-                    <p class="text-sm">
-                        Please note that revanced.net is a community-driven website created by ReVanced enthusiasts to distribute clean APKs and is not official. The official ReVanced sources are only <strong class="text-white">github.com/ReVanced</strong> and <strong class="text-white">revanced.app</strong> <a href="/faq#who-are-revanced.net" class="text-blue-400 hover:underline"> read more </a>
-                    </p>
-                </div>
-        </div>
+        </article>
     </div>
 </section>
 
@@ -646,139 +744,6 @@
     </div>
 </section>
 
-<section id="features" class="py-16 bg-gray-900">
-    <div class="container mx-auto px-4 md:px-8 lg:px-16 xl:px-24">
-        <h2 class="text-4xl font-bold text-center mb-12">Features</h2>
-        <p class="text-center mb-16 text-xl">Discover the exclusive <a class="text-blue-500" href="/all-features">features</a> of YouTube ReVanced</p>
-        <div class="space-y-24 md:space-y-32">
-            <!-- Main Features -->
-            <div class="flex flex-col md:flex-row items-center md:items-start">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                    <h3 class="text-2xl font-bold mb-4 text-blue-500">Main Feature</h3>
-                    <ul class="space-y-2">
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><circle cx="12" cy="12" r="10" /><path d="m4.9 4.9 14.2 14.2" /></svg> Ad-free experience: No interruptions while watching
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><circle cx="12" cy="12" r="10" /><polygon points="10 8 16 12 10 16 10 8" /></svg> Background play: Listen with screen off
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg> Video downloads: Save content for offline viewing
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><polygon points="13 19 22 12 13 5 13 19" /><polygon points="2 19 11 12 2 5 2 19" /></svg> SponsorBlock: Skip sponsored segments automatically
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M17 14V2" /><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z" /></svg> Return YouTube Dislike: View dislike counts
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /><circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /><circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /><circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" /></svg> Custom themes: Personalize app appearance
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" /><circle cx="12" cy="12" r="3" /></svg> Video quality options: Choose preferred resolution
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M21 9V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h4" /><rect width="10" height="7" x="12" y="13" rx="2" /></svg> Picture-in-Picture: Multitask while watching
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg> Swipe controls: Easy brightness and volume adjustment
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></svg> Custom playback speed: Adjust video tempo
-                        </li>
-                    </ul>
-                </div>
-                <div class="md:w-1/2 flex flex-col md:flex-row justify-center md:justify-end space-y-4 md:space-y-0 md:space-x-4">
-                    <img src="/assets/img/features_1.webp" alt="ReVanced YouTube Features" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                    <img src="/assets/img/features_2.webp" alt="ReVanced YouTube App" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                </div>
-            </div>
-            <!-- Customization -->
-            <div class="flex flex-col md:flex-row-reverse items-center md:items-start">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pl-8">
-                    <h3 class="text-2xl font-bold mb-4 text-red-600">Customization</h3>
-                    <ul class="space-y-2">
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /><circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /><circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /><circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" /></svg> Theme Customization: Dark, Light, and AMOLED modes
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><rect width="7" height="9" x="3" y="3" rx="1" /><rect width="7" height="5" x="14" y="3" rx="1" /><rect width="7" height="9" x="14" y="12" rx="1" /><rect width="7" height="5" x="3" y="16" rx="1" /></svg> Layout Tweaks: Hide shorts button, cast button, and more
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" /><circle cx="12" cy="12" r="3" /></svg> Video Player Options: Default quality, speed, and captions
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /></svg> Ad Blocking Preferences: Choose which ads to block
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><rect x="5" y="2" width="14" height="20" rx="7" /><path d="M12 6v4" /></svg> Gesture Controls: Customize swipe actions and double-tap
-                        </li>
-                    </ul>
-                </div>
-                <div class="md:w-1/2 flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                    <img src="/assets/img/customization_1.webp" alt="ReVanced YouTube Customization Options" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                    <img src="/assets/img/customization_2.webp" alt="ReVanced YouTube Personalization" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                </div>
-            </div>
-            <!-- Return YouTube™ Dislike -->
-            <div class="flex flex-col md:flex-row items-center md:items-start">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                    <h3 class="text-2xl font-bold mb-4 text-blue-500">Return YouTube™ Dislike</h3>
-                    <ul class="space-y-2">
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M17 14V2" /><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z" /></svg> View accurate dislike counts on videos
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M3 3v16a2 2 0 0 0 2 2h16" /><path d="M7 16h8" /><path d="M7 11h12" /><path d="M7 6h3" /></svg> Assess video quality before watching
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg> Contribute to community feedback
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor" /><circle cx="17.5" cy="10.5" r=".5" fill="currentColor" /><circle cx="8.5" cy="7.5" r=".5" fill="currentColor" /><circle cx="6.5" cy="12.5" r=".5" fill="currentColor" /><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" /></svg> Customizable dislike button appearance
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0"><rect width="7" height="7" x="3" y="3" rx="1" /><rect width="7" height="7" x="3" y="14" rx="1" /><path d="M14 4h7" /><path d="M14 9h7" /><path d="M14 15h7" /><path d="M14 20h7" /></svg> Integration with video browsing experience
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg> Enhanced content discovery through dislikes
-                        </li>
-                    </ul>
-                </div>
-                <div class="md:w-1/2 flex flex-col md:flex-row justify-center md:justify-end space-y-4 md:space-y-0 md:space-x-4">
-                    <img src="/assets/img/youtube_dislike_1.webp" alt="ReVanced Return YouTube™ Dislike Features" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                    <img src="/assets/img/youtube_dislike_2.webp" alt="ReVanced Return YouTube™ Dislike Options" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                </div>
-            </div>
-            <!-- Sponsor Block -->
-            <div class="flex flex-col md:flex-row-reverse items-center md:items-start">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pl-8">
-                    <h3 class="text-2xl font-bold mb-4 text-red-600">Sponsor Block</h3>
-                    <ul class="space-y-2">
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><polygon points="13 19 22 12 13 5 13 19" /><polygon points="2 19 11 12 2 5 2 19" /></svg> Time-saving: Automatically skipping sponsored segments can save viewers time
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" /><circle cx="12" cy="12" r="3" /></svg> Customization: Users can often choose which types of segments to skip
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg> Community-driven: Many such systems rely on user submissions to mark sponsor segments
-                        </li>
-                        <li class="flex items-start">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-red-600 mr-2 flex-shrink-0"><polygon points="6 3 20 12 6 21 6 3" /></svg> Seamless viewing: When working well, it allows for uninterrupted viewing of content
-                        </li>
-                    </ul>
-                </div>
-                <div class="md:w-1/2 flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                    <img src="/assets/img/sponsor_block_1.webp" alt="ReVanced YouTube Sponsor Block Options" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                    <img src="/assets/img/sponsor_block_2.webp" alt="ReVanced YouTube Sponsor Block Screen" class="w-64 h-auto rounded-lg shadow-lg p-1">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
     </main>
     <footer class="bg-gray-900 py-6 text-center">
         <div class="container mx-auto px-4">
@@ -893,37 +858,37 @@
 
 
     
+        <script type="application/ld+json">
+            {
+  "context": "https://schema.org",
+  "type": "BlogPosting",
+  "mainEntityOfPage": {
+    "type": "WebPage",
+    "id": "https://revanced.net/posts/youtube-revanced-server-400-fix-19-46-42"
+  },
+  "headline": "YouTube ReVanced v19.46.42: Server Error 400 Fix and Major Improvements",
+  "description": "YouTube ReVanced v19.46.42 fixes the server 400 error, introduces new features like custom seekbar themes and miniplayer controls, while improving overall stability and user experience.",
+  "image": "https://revanced.net/assets/posts/youtube-revanced-there-was-a-problem-with-the-server-400.jpg",
+  "author": {
+    "type": "Organization",
+    "name": "ReVanced Team"
+  },
+  "publisher": {
+    "type": "Organization",
+    "name": "ReVanced",
+    "logo": {
+      "type": "ImageObject",
+      "url": "https://revanced.net/assets/img/logo.svg"
+    }
+  },
+  "datePublished": "2024-11-27T10:00:00Z",
+  "dateModified": "2024-11-27T10:00:00Z",
+  "keywords": "YouTube ReVanced 19.46.42, server 400 error fix, video playback fix, ReVanced update, YouTube mod, custom themes, playback speed, Android customization"
+}
+        </script>
 
 
     
-    <script>
-
-
-        // Initialize the typing effect
-        document.addEventListener('DOMContentLoaded', () => {
-            const typedOutput = document.getElementById('typed-output');
-            new VanillaTyped(typedOutput, {
-                strings: [
-                    "Better than Youtube Premium",
-                    "The Next Generation of Vanced",
-                    "Block All Ads",
-                    "Background Playback",
-                    "Picture in Picture",
-                    "Sponsor Block",
-                    "Auto Repeat",
-                    "Return YouTube™ Dislike"
-                ],
-                typeSpeed: 80,
-                backSpeed: 30,
-                backDelay: 1100,
-                startDelay: 500,
-                loop: true,
-                showCursor: true,
-                cursorChar: '|'
-            });
-        });
-    </script>
-
 
 </body>
 </html>
