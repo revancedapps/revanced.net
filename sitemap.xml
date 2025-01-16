@@ -4,499 +4,499 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://revanced.net/blog</loc>
+    <loc>https://rv.net/blog</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/revanced-youtube-19-09-37</loc>
+    <loc>https://rv.net/posts/rv-youtube-19-09-37</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/youtube-revanced-extended-19-13-37</loc>
+    <loc>https://rv.net/posts/youtube-rv-extended-19-13-37</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/youtube-revanced-buffering-and-video-loading-issues</loc>
+    <loc>https://rv.net/posts/youtube-rv-buffering-and-video-loading-issues</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/revanced-youtube-extended-19-20-34</loc>
+    <loc>https://rv.net/posts/rv-youtube-extended-19-20-34</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/revanced-youtube-19-11-43</loc>
+    <loc>https://rv.net/posts/rv-youtube-19-11-43</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/revanced-google-photos-vs-pixelify-which-is-better</loc>
+    <loc>https://rv.net/posts/rv-google-photos-vs-pixelify-which-is-better</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/new-build-for-revanced-google-photos</loc>
+    <loc>https://rv.net/posts/new-build-for-rv-google-photos</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/fixed-youtube-revanced-history-issue</loc>
+    <loc>https://rv.net/posts/fixed-youtube-rv-history-issue</loc>
     <lastmod>2023-10-10T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/how-to-self-patch-revanced-youtube-on-your-computer</loc>
+    <loc>https://rv.net/posts/how-to-self-patch-rv-youtube-on-your-computer</loc>
     <lastmod>2024-10-21T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/revanced-manager-2-0-complete-rewrite</loc>
+    <loc>https://rv.net/posts/rv-manager-2-0-complete-rewrite</loc>
     <lastmod>2024-10-29T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/youtube-revanced-19-43-41-released</loc>
+    <loc>https://rv.net/posts/youtube-rv-19-43-41-released</loc>
     <lastmod>2024-11-07T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/youtube-premium-shows-ads-users-concerned</loc>
+    <loc>https://rv.net/posts/youtube-premium-shows-ads-users-concerned</loc>
     <lastmod>2024-11-12T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/posts/youtube-revanced-server-400-fix-19-46-42</loc>
+    <loc>https://rv.net/posts/youtube-rv-server-400-fix-19-46-42</loc>
     <lastmod>2024-11-27T10:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://revanced.net/tos</loc>
+    <loc>https://rv.net/tos</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/donate</loc>
+    <loc>https://rv.net/donate</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/help-2</loc>
+    <loc>https://rv.net/help-2</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/help</loc>
+    <loc>https://rv.net/help</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/faq</loc>
+    <loc>https://rv.net/faq</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-for-ios</loc>
+    <loc>https://rv.net/rv-for-ios</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/old-versions</loc>
+    <loc>https://rv.net/old-versions</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/stats</loc>
+    <loc>https://rv.net/stats</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/download-youtube</loc>
+    <loc>https://rv.net/download-youtube</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/all-features</loc>
+    <loc>https://rv.net/all-features</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-manager</loc>
+    <loc>https://rv.net/rv-manager</loc>
     <lastmod>2024-12-16T08:28:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/youtube-revanced</loc>
+    <loc>https://rv.net/youtube-rv</loc>
     <lastmod>2024-12-24T03:02:50+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-music</loc>
+    <loc>https://rv.net/rv-youtube-music</loc>
     <lastmod>2024-12-23T14:31:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/gmscore-microg</loc>
+    <loc>https://rv.net/gmscore-microg</loc>
     <lastmod>2024-04-05T04:18:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/microg-for-huawei</loc>
+    <loc>https://rv.net/microg-for-huawei</loc>
     <lastmod>2024-04-05T04:17:43+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/microg-old-version</loc>
+    <loc>https://rv.net/microg-old-version</loc>
     <lastmod>2023-11-29T14:29:11+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-extended</loc>
+    <loc>https://rv.net/rv-youtube-extended</loc>
     <lastmod>2024-12-23T14:30:29+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-music-extended</loc>
+    <loc>https://rv.net/rv-youtube-music-extended</loc>
     <lastmod>2024-12-23T14:31:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/newpipe</loc>
+    <loc>https://rv.net/newpipe</loc>
     <lastmod>2024-12-02T09:46:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-candylink-vpn</loc>
+    <loc>https://rv.net/rv-candylink-vpn</loc>
     <lastmod>2024-05-04T10:24:31+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-duolingo</loc>
+    <loc>https://rv.net/rv-duolingo</loc>
     <lastmod>2024-11-06T02:56:10+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-google-photos</loc>
+    <loc>https://rv.net/rv-google-photos</loc>
     <lastmod>2024-12-23T12:09:52+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-iconpack-studio</loc>
+    <loc>https://rv.net/rv-iconpack-studio</loc>
     <lastmod>2023-12-13T09:01:44+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-lightroom</loc>
+    <loc>https://rv.net/rv-lightroom</loc>
     <lastmod>2024-08-04T20:05:48+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-meme-generator</loc>
+    <loc>https://rv.net/rv-meme-generator</loc>
     <lastmod>2024-03-30T11:30:46+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-nyx-music-player</loc>
+    <loc>https://rv.net/rv-nyx-music-player</loc>
     <lastmod>2024-04-06T14:31:37+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-reddit-extended</loc>
+    <loc>https://rv.net/rv-reddit-extended</loc>
     <lastmod>2024-12-23T14:41:40+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-tumblr</loc>
+    <loc>https://rv.net/rv-tumblr</loc>
     <lastmod>2024-04-05T02:49:53+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-twitch</loc>
+    <loc>https://rv.net/rv-twitch</loc>
     <lastmod>2024-03-18T08:36:08+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-extended-anddea</loc>
+    <loc>https://rv.net/rv-youtube-extended-anddea</loc>
     <lastmod>2024-12-23T12:42:26+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-music-extended-anddea</loc>
+    <loc>https://rv.net/rv-youtube-music-extended-anddea</loc>
     <lastmod>2024-12-23T14:30:55+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-extended-for-android-6-android-7</loc>
+    <loc>https://rv.net/rv-youtube-extended-for-android-6-android-7</loc>
     <lastmod>2024-12-02T09:46:12+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-extended-for-android-5</loc>
+    <loc>https://rv.net/rv-youtube-extended-for-android-5</loc>
     <lastmod>2024-07-02T03:08:22+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-extended-rufusin</loc>
+    <loc>https://rv.net/rv-youtube-extended-rufusin</loc>
     <lastmod>2024-05-11T13:42:14+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-youtube-music-extended-rufusin</loc>
+    <loc>https://rv.net/rv-youtube-music-extended-rufusin</loc>
     <lastmod>2024-05-09T02:21:05+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-yuka</loc>
+    <loc>https://rv.net/rv-yuka</loc>
     <lastmod>2024-06-26T07:10:30+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/youtube-for-tv</loc>
+    <loc>https://rv.net/youtube-for-tv</loc>
     <lastmod>2024-12-21T16:24:10+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/magisk-yt</loc>
+    <loc>https://rv.net/magisk-yt</loc>
     <lastmod>2024-11-29T04:02:19+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/magisk-yt-music</loc>
+    <loc>https://rv.net/magisk-yt-music</loc>
     <lastmod>2024-12-21T16:21:11+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-sync-for-lemmy</loc>
+    <loc>https://rv.net/rv-sync-for-lemmy</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-stocard</loc>
+    <loc>https://rv.net/rv-stocard</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-sony-sound-connect</loc>
+    <loc>https://rv.net/rv-sony-sound-connect</loc>
     <lastmod>2024-10-18T04:33:20+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-slide-for-reddit</loc>
+    <loc>https://rv.net/rv-slide-for-reddit</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-rif-is-fun-for-reddit</loc>
+    <loc>https://rv.net/rv-rif-is-fun-for-reddit</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-relay-for-reddit</loc>
+    <loc>https://rv.net/rv-relay-for-reddit</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-recorder</loc>
+    <loc>https://rv.net/rv-recorder</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-photomath</loc>
+    <loc>https://rv.net/rv-photomath</loc>
     <lastmod>2024-10-18T04:33:17+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-myfitnesspal</loc>
+    <loc>https://rv.net/rv-myfitnesspal</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-mi-fitness</loc>
+    <loc>https://rv.net/rv-mi-fitness</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-infinity-for-reddit</loc>
+    <loc>https://rv.net/rv-infinity-for-reddit</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-google-news</loc>
+    <loc>https://rv.net/rv-google-news</loc>
     <lastmod>2024-10-18T04:33:14+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-facebook-messenger</loc>
+    <loc>https://rv.net/rv-facebook-messenger</loc>
     <lastmod>2024-10-18T04:33:06+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-facebook</loc>
+    <loc>https://rv.net/rv-facebook</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-boost-for-reddit</loc>
+    <loc>https://rv.net/rv-boost-for-reddit</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-bandcamp</loc>
+    <loc>https://rv.net/rv-bandcamp</loc>
     <lastmod>2024-10-18T04:33:02+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-baconreader-for-reddit</loc>
+    <loc>https://rv.net/rv-baconreader-for-reddit</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-amazon-shopping</loc>
+    <loc>https://rv.net/rv-amazon-shopping</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-x</loc>
+    <loc>https://rv.net/rv-x</loc>
     <lastmod>2024-10-18T04:33:33+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-warnwetter</loc>
+    <loc>https://rv.net/rv-warnwetter</loc>
     <lastmod>2024-10-18T04:33:25+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-winrar</loc>
+    <loc>https://rv.net/rv-winrar</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-manager-beta</loc>
+    <loc>https://rv.net/rv-manager-beta</loc>
     <lastmod>2024-10-29T08:13:31+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/revanced-iconpack_studio</loc>
+    <loc>https://rv.net/rv-iconpack_studio</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://revanced.net/microg</loc>
+    <loc>https://rv.net/microg</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/magisk</loc>
+    <loc>https://rv.net/magisk</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/root</loc>
+    <loc>https://rv.net/root</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/non-root</loc>
+    <loc>https://rv.net/non-root</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net/sitemap.xml</loc>
+    <loc>https://rv.net/sitemap.xml</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://revanced.net</loc>
+    <loc>https://rv.net</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://revanced.net/sitemap.xml</loc>
+    <loc>https://rv.net/sitemap.xml</loc>
     <lastmod>2024-01-01T00:00:00+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -1,1 +1,1 @@
-Sitemap: https://revanced.net/sitemap.xml
+Sitemap: https://rv.net/sitemap.xml

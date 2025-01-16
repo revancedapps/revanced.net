@@ -3,24 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Statistics  - revanced.net</title>
-    <meta name="description" content="Public download statistics for revanced.net">
-    <meta name="keywords" content="revanced, statistics, downloads, GitHub releases">
-    <meta name="author" content="ReVanced Apps">
+    <title>Statistics  - rv.net</title>
+    <meta name="description" content="Public download statistics for rv.net">
+    <meta name="keywords" content="rv, statistics, downloads, GitHub releases">
+    <meta name="author" content="RV Apps">
     
 
-    <link rel="canonical" href="https://revanced.net/stats" />
+    <link rel="canonical" href="https://rv.net/stats" />
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://revanced.net/stats">
+    <meta property="og:url" content="https://rv.net/stats">
     <meta property="og:title" content="Statistics ">
-    <meta property="og:description" content="Public download statistics for revanced.net">
+    <meta property="og:description" content="Public download statistics for rv.net">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://revanced.net/stats">
+    <meta property="twitter:url" content="https://rv.net/stats">
     <meta property="twitter:title" content="Statistics ">
-    <meta property="twitter:description" content="Public download statistics for revanced.net">
+    <meta property="twitter:description" content="Public download statistics for rv.net">
 
 
 
@@ -46,7 +46,7 @@
         :root {
             --gray-600: #4B5563;
             --gray-700: #374151;
-            --revanced-blue: #2196F3;
+            --rv-blue: #2196F3;
         }
 
         .min-h-screen-adjusted {
@@ -76,7 +76,7 @@
         }
 
         #other-versions a {
-            color: var(--revanced-blue);
+            color: var(--rv-blue);
             text-decoration: none;
         }
 
@@ -93,9 +93,9 @@
                     <img src="/assets/img/logo.svg" alt="Open" class="h-12 w-12">
                 </a>
                 <div class="hidden md:flex space-x-4">
-                    <a class="text-white hover:text-blue-500" href="/youtube-revanced">YouTube ReVanced</a>
+                    <a class="text-white hover:text-blue-500" href="/youtube-rv">YouTube RV</a>
                     <a class="text-white hover:text-blue-500" href="/gmscore-microg">MicroG</a>
-                    <a class="text-white hover:text-blue-500" href="/revanced-for-ios">ReVanced for iOS</a>
+                    <a class="text-white hover:text-blue-500" href="/rv-for-ios">RV for iOS</a>
                     <a class="text-white hover:text-blue-500" href="/faq">FAQ</a>
                     <a class="text-white hover:text-blue-500" href="/help">Help</a>
                     <a href="/#download" class="text-white hover:text-blue-500">Download</a>
@@ -110,9 +110,9 @@
         <!-- Mobile menu, hidden by default -->
         <div class="md:hidden hidden absolute w-full bg-gray-900 z-50" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/youtube-revanced">YouTube ReVanced</a>
+                <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/youtube-rv">YouTube RV</a>
                 <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/gmscore-microg">MicroG</a>
-                <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/revanced-for-ios">ReVanced for iOS</a>
+                <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/rv-for-ios">RV for iOS</a>
                 <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/faq">FAQ</a>
                 <a class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md" href="/help">Help</a>
                 <a href="/#download" class="text-white hover:bg-gray-700 block px-3 py-2 rounded-md">Download</a>
@@ -126,7 +126,7 @@
         
 <section class="py-16 bg-gray-900">
     <div class="container mx-auto px-4">
-        <h1 class="text-4xl font-bold text-center mb-8 text-white">revanced.net Public Download Statistics</h1>
+        <h1 class="text-4xl font-bold text-center mb-8 text-white">rv.net Public Download Statistics</h1>
 
         <div id="summary-section" class="mb-12 bg-gray-800 rounded-lg p-6 shadow-lg">
             <!-- Summary will be populated by JavaScript -->
@@ -161,14 +161,14 @@
     </main>
     <footer class="bg-gray-900 py-6 text-center">
         <div class="container mx-auto px-4">
-            <p>&copy; 2023 <a href="/" class="text-blue-500 hover:underline">revanced.net</a>. All Rights Reserved. </p>
+            <p>&copy; 2023 <a href="/" class="text-blue-500 hover:underline">rv.net</a>. All Rights Reserved. </p>
 
             <div class="mt-2">
                 <a href="/sitemap.xml" class="text-gray-400 hover:text-white mr-4">Sitemap</a>
                 <a class="text-gray-400 hover:text-white  mr-4" href="/blog">Blog</a>
                 <a class="text-gray-400 hover:text-white  mr-4" href="/donate">Donate</a>
                 <a class="text-gray-400 hover:text-white  mr-4" href="/tos">ToS</a>
-                <a href="https://revanced.net/revanced-apps.json" class="text-gray-400 hover:text-white">API</a>
+                <a href="https://rv.net/rv-apps.json" class="text-gray-400 hover:text-white">API</a>
             </div>
         </div>
     </footer>
@@ -331,7 +331,7 @@
         }
 
         async function fetchAllReleases() {
-            const apiEndPoint = 'https://api.github.com/repos/revancedapps/revanced.net/releases';
+            const apiEndPoint = 'https://api.github.com/repos/rvapps/rv.net/releases';
             let page = 1;
             let allReleases = [];
 
@@ -369,7 +369,7 @@
             const now = new Date();
 
             // Fetch download statistics
-            const downloadStats = await fetch('/revanced_downloads.json').then(response => response.json());
+            const downloadStats = await fetch('/rv_downloads.json').then(response => response.json());
 
             // Calculate total downloads from statistics
             const totalDownloadsFromStats = Object.values(downloadStats.AssetDownloads).reduce((sum, count) => sum + count, 0);
@@ -401,8 +401,8 @@
                     const statisticDownloadCount = downloadStats.AssetDownloads[asset.id] || 0;
                     const downloadDifference = asset.download_count - statisticDownloadCount;
 
-                    const unformattedFileName = asset.name.replace('revanced.net_', '')
-                        .replace('revanced_', '')
+                    const unformattedFileName = asset.name.replace('rv.net_', '')
+                        .replace('rv_', '')
                         .replace('.apk', '')
                         .replace(/_/g, ' ');
                     const dateString = uploadedDate.toLocaleDateString() + ' ' + uploadedDate.toLocaleTimeString();
